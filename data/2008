@@ -1,0 +1,261 @@
+{
+  "url": "https://archive.fosdem.org/2008/",
+  "talks": {
+    "keynotes": 5
+  },
+  "main_tracks": 6,
+  "main": [
+    {
+      "speaker": "FOSDEM staff",
+      "title": "Welcome"
+    },
+    {
+      "speaker": "Robin Rowe,Gabrielle Pantera",
+      "title": "Tux with Shades, Linux in Hollywood"
+    },
+    {
+      "speaker": "Robert Watson",
+      "title": "How a large scale opensource project works"
+    },
+    {
+      "speaker": "Pieter Hintjens",
+      "title": "Status update of Software Patents"
+    },
+    {
+      "speaker": "FOSDEM Staff",
+      "title": "The Endgame"
+    },
+    {
+      "speaker": "Patrick Michaud",
+      "title": "Perl 6"
+    },
+    {
+      "speaker": "Andrei Zmievski",
+      "title": "Unicoding With PHP 6"
+    },
+    {
+      "speaker": "Charles Oliver Nutter",
+      "title": "JRuby"
+    },
+    {
+      "speaker": "Kohsuke Kawaguchi",
+      "title": "Hudson"
+    },
+    {
+      "speaker": "Steven Knight",
+      "title": "SCons"
+    },
+    {
+      "speaker": "Bill Hoffman",
+      "title": "CMake"
+    },
+    {
+      "speaker": "David White",
+      "title": "Battle for Wesnoth"
+    },
+    {
+      "speaker": "Jorrit Tyberghein",
+      "title": "Crystalspace3D"
+    },
+    {
+      "speaker": "Stéphane Magnenat",
+      "title": "Globulation 2"
+    },
+    {
+      "speaker": "Michael K. Johnson",
+      "title": "Conary Packaging: Simply Powerful"
+    },
+    {
+      "speaker": "Richard Hughes",
+      "title": "PackageKit"
+    },
+    {
+      "speaker": "Simon Peter, Kurt Pfeifle",
+      "title": "Application virtualization with next-generation Klik"
+    },
+    {
+      "speaker": "Ian Pratt",
+      "title": "Xen"
+    },
+    {
+      "speaker": "Achim Hasenmueller",
+      "title": "VirtualBox"
+    },
+    {
+      "speaker": "Matthias Rechenburg",
+      "title": "openQRM, pluggable virtualization for modern data-centers"
+    },
+    {
+      "speaker": "Garrett J Woodworth",
+      "title": "CakePHP"
+    },
+    {
+      "speaker": "Rogan Dawes",
+      "title": "OWASP WebScarab-NG"
+    },
+    {
+      "speaker": "Mark Finkle",
+      "title": "Mozilla Prism"
+    }
+  ],
+  "lightning": [
+    "Lightning Opening Talk",
+    "Mattias Guns",
+    "Ferrer",
+    "Sat 14:00-14:15",
+    "Electronic Frontier Foundation",
+    "Erik Josefsson",
+    "Ferrer",
+    "Sat 14:20-14:35",
+    "Open Trusted Computing: towards trusted and secure computing",
+    "Goerkem Cetin",
+    "Ferrer",
+    "Sat 14:40-14:55",
+    "IOGrind: locating I/O performance problems",
+    "Michael Meeks",
+    "Ferrer",
+    "Sat 15:00-15:15",
+    "Zapcat: monitoring Java applications",
+    "Kees Jan Koster",
+    "Ferrer",
+    "Sat 15:20-15:35",
+    "Terracotta: network attached memory for the JVM",
+    "Geert Bevin",
+    "Ferrer",
+    "Sat 15:40-15:55",
+    "Dacco: open source dictionaries",
+    "Carles Pina i Estany",
+    "Ferrer",
+    "Sat 16:00-16:15",
+    "Indywiki: visually browsing wikipedia pages",
+    "Markos Gogoulos",
+    "Ferrer",
+    "Sat 16:20-16:35",
+    "Kettle: extracting, transforming and loading data",
+    "Matt Casters",
+    "Ferrer",
+    "Sat 16:40-16:55",
+    "Alfresco: fresh document management approach",
+    "Philippe Dubois",
+    "Ferrer",
+    "Sat 17:00-17:15",
+    "Stylebase for Eclipse: sharing software architectural models",
+    "Katja Henttonen",
+    "Ferrer",
+    "Sat 17:20-17:35",
+    "Bongo Project: simple e-mail and calendar server",
+    "Andrew Wafaa",
+    "Ferrer",
+    "Sat 17:40-17:55",
+    "XMMS2: redesign of the XMMS music player",
+    "Tobias Rundstroem",
+    "Ferrer",
+    "Sat 18:00-18:15",
+    "OpenAFS: cross-platform enterprise class distributed filesystem",
+    "Simon Wilkinson",
+    "Ferrer",
+    "Sat 18:20-18:35",
+    "Squeak: modern development environment for Smalltalk.",
+    "Damien Pollet",
+    "Ferrer",
+    "Sat 18:40-18:55",
+    "CloudBridges: bridging social networks",
+    "Edwin Taylor",
+    "Ferrer",
+    "Sun 09:20-09:35",
+    "Sepia: metadata based file browser",
+    "Peter Rullmann",
+    "Ferrer",
+    "Sun 09:40-09:55",
+    "Ganeti: virtual cluster management tool",
+    "Guido Trotter",
+    "Ferrer",
+    "Sun 10:00-10:15",
+    "Mamona: completely open source SDK for Maemo",
+    "Kees Jongenburger",
+    "Ferrer",
+    "Sun 10:20-10:35",
+    "View-OS: partial virtualisation",
+    "Renzo Davoli",
+    "Ferrer",
+    "Sun 10:40-10:55",
+    "Hildon App. Manager: package management for Internet Tablets",
+    "Marius Vollmer",
+    "Ferrer",
+    "Sun 11:00-11:15",
+    "Foresight Linux: a new paradigm in distro making",
+    "Antonio Meireles",
+    "Ferrer",
+    "Sun 11:20-11:35",
+    "Polippix: free software to protect basic rights and freedoms",
+    "Niels Elgaard Larsen",
+    "Ferrer",
+    "Sun 11:40-11:55",
+    "KeySigning Party",
+    "Wouter Verhelst",
+    "Ferrer",
+    "Sun 12:00-14:00",
+    "tangoGPS: from Gtk development to Openmoko app.",
+    "Marcus Bauer",
+    "Ferrer",
+    "Sun 14:00-14:15",
+    "Wir3D: visual network scanner",
+    "Maciek Kolbusz",
+    "Ferrer",
+    "Sun 14:20-14:35",
+    "K-3D: 3D modeling and animation package",
+    "Bart Janssens",
+    "Ferrer",
+    "Sun 14:40-14:55",
+    "MySQL Proxy: monitor, analyze and transform queries",
+    "Jan Kneschke",
+    "Ferrer",
+    "Sun 15:00-15:15",
+    "Archetype: structural JavaScript Framework",
+    "Florian Traverse",
+    "Ferrer",
+    "Sun 15:20-15:35",
+    "Ajatus: offline Ajax-driven P2P CRM app",
+    "Jerry Jalava",
+    "Ferrer",
+    "Sun 15:40-15:55",
+    "Minerva: house automation suite",
+    "Steven Goodwin",
+    "Ferrer",
+    "Sun 16:00-16:15",
+    "BluePad: from cell phone to remote bluetooth controller",
+    "Valerio Valerio",
+    "Ferrer",
+    "Sun 16:20-16:35",
+    "Coherence: a DLNA/UPnP framework",
+    "Frank Scholz",
+    "Ferrer",
+    "Sun 16:40-16:55",
+    "GGZ Gaming Zone: Multiplayer gaming framework",
+    "Josef Spillner",
+    "Ferrer",
+    "Sun 17:00-17:15",
+    "Project Indiana: towards a free OpenSolaris LiveCD",
+    "Stefan Schneider",
+    "Ferrer",
+    "Sun 17:20-17:35"
+  ],
+  "devrooms": {
+    "crossdesktop": 11,
+    "kde": 8,
+    "gnome": 7,
+    "opensuse": 19,
+    "mozilla": 15,
+    "freejava": 11,
+    "centos": 12,
+    "xorg": 10,
+    "debian": 14,
+    "ruby": 4,
+    "research": 6,
+    "jboss": 1,
+    "openoffice": 8,
+    "postgres": 22,
+    "embedded": 13,
+    "drupal": 11
+  }
+}

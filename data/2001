@@ -1,0 +1,130 @@
+{
+  "url": "https://archive.fosdem.org/2001/program/index.html",
+  "talks": {},
+  "main": [
+    {
+      "speaker": "Raphael",
+      "title": "Welcome"
+    },
+    {
+      "speaker": "Richard M Stallman",
+      "title": "Software patents dangers"
+    },
+    {
+      "speaker": "Werner Koch",
+      "title": "GnuPG"
+    },
+    {
+      "speaker": "Axel Hecht",
+      "title": "Mozilla"
+    },
+    {
+      "speaker": "Sascha Gresk",
+      "title": "LDAP, SWIG"
+    },
+    {
+      "speaker": "Richard Morrell",
+      "title": "Smoothwall"
+    },
+    {
+      "speaker": "",
+      "title": "Open ACS web managing"
+    },
+    {
+      "speaker": "Jorrit Tyberghein",
+      "title": "Crystal Space"
+    },
+    {
+      "speaker": "Fyodor",
+      "title": "Network reconnaissance techniques"
+    },
+    {
+      "speaker": "Amnon Barak",
+      "title": "Mosix"
+    },
+    {
+      "speaker": "Renaud Deraison",
+      "title": "Nessus"
+    },
+    {
+      "speaker": "",
+      "title": "Quantum computing"
+    },
+    {
+      "speaker": "",
+      "title": "Java Open source development"
+    },
+    {
+      "speaker": "",
+      "title": "Security Round Table"
+    },
+    {
+      "speaker": "Marcus Brinkman",
+      "title": "The Hurd"
+    },
+    {
+      "speaker": "Mathieu Lacage",
+      "title": "Gnome"
+    },
+    {
+      "speaker": "Peter De Schrijver",
+      "title": "Embedded Linux"
+    },
+    {
+      "speaker": "David Faure",
+      "title": "KDE"
+    },
+    {
+      "speaker": "Wichert Ackerman",
+      "title": "Debian"
+    },
+    {
+      "speaker": "Phil Biondi",
+      "title": "Security at kernel level"
+    },
+    {
+      "speaker": "",
+      "title": "Free Software development strategies"
+    },
+    {
+      "speaker": "Ami Ganguli",
+      "title": "Midgard"
+    },
+    {
+      "speaker": "Conrad Parker",
+      "title": "Sweep Sound Editor"
+    },
+    {
+      "speaker": "Jeremy Allison",
+      "title": "Samba"
+    },
+    {
+      "speaker": "Stephane Fermigier",
+      "title": "Zope"
+    },
+    {
+      "speaker": "Renaud Larsen",
+      "title": "Karl Popper Project"
+    },
+    {
+      "speaker": "Rasterman",
+      "title": "Hardware accelerated image blending, rendering, scaling, anti-aliased text rendering - a reality on your desktop"
+    },
+    {
+      "speaker": "Rasmus Lerdorf",
+      "title": "PHP"
+    },
+    {
+      "speaker": "Alexander Bokovoy",
+      "title": "i18n"
+    },
+    {
+      "speaker": "Horms",
+      "title": "Global Distribution System"
+    },
+    {
+      "speaker": "",
+      "title": "Web content management round table"
+    }
+  ]
+}

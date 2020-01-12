@@ -1,0 +1,107 @@
+{
+  "url": "https://archive.fosdem.org/2006/2006/index/schedule.html",
+  "talks": {},
+  "main": [
+    {
+      "speaker": "Richard M Stallman",
+      "title": "keynote"
+    },
+    {
+      "speaker": "",
+      "title": "GPLv3 discussion"
+    },
+    {
+      "speaker": "Uriel M. Pereira",
+      "title": "Plan9"
+    },
+    {
+      "speaker": "Jan Janak",
+      "title": "SIP Express Router"
+    },
+    {
+      "speaker": "Jon Haslam",
+      "title": "DTrace"
+    },
+    {
+      "speaker": "Asterisk",
+      "title": "Mark Spencer"
+    },
+    {
+      "speaker": "Ian Pratt",
+      "title": "XEN"
+    },
+    {
+      "speaker": "Jean-Marc Valin",
+      "title": "Speex"
+    },
+    {
+      "speaker": "Geert Bevin",
+      "title": "RIFE"
+    },
+    {
+      "speaker": "David Roundy",
+      "title": "Darcs"
+    },
+    {
+      "speaker": "Jason Huggins",
+      "title": "Selenium"
+    },
+    {
+      "speaker": "Greg Stein",
+      "title": "SVN"
+    },
+    {
+      "speaker": "Alex Russell",
+      "title": "Dojo"
+    },
+    {
+      "speaker": "Julian Seward",
+      "title": "Valgrind"
+    },
+    {
+      "speaker": "Crispin Cowan",
+      "title": "AppArmor"
+    },
+    {
+      "speaker": "Jon Trowbridge",
+      "title": "Beagle"
+    },
+    {
+      "speaker": "Massimiliano Pala",
+      "title": "OpenCA"
+    },
+    {
+      "speaker": "Tomasz Kojm",
+      "title": "ClamAV"
+    },
+    {
+      "speaker": "Brian King",
+      "title": "XUL"
+    },
+    {
+      "speaker": "Michael Meeks",
+      "title": "OpenOffice.org"
+    }
+  ],
+  "devrooms": {
+    "ada": 6,
+    "classpath": 1,
+    "embedded": 11,
+    "mozilla": 13,
+    "kde": 1,
+    "gnome": 1,
+    "jabber": 6,
+    "dev_room_linuxonlaptops": 1,
+    "opengroupware": 1,
+    "tcl": 1,
+    "calibre": 6,
+    "gentoo": 9,
+    "opensuse": 12,
+    "gnustep": 1,
+    "xorg": 10,
+    "debian": 10
+  },
+  "notes": [
+    "First keysigning party"
+  ]
+}

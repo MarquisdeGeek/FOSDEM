@@ -1,0 +1,121 @@
+{
+  "url": "https://archive.fosdem.org/2003/index/schedule.html",
+  "talks": {},
+  "main": [
+    {
+      "speaker": "Jon Maddog Hall",
+      "title": "The History of Free Software"
+    },
+    {
+      "speaker": "Richard M Stallman",
+      "title": "keynote"
+    },
+    {
+      "speaker": "Ann Harrison",
+      "title": "Firebird"
+    },
+    {
+      "speaker": "Havoc Pennington",
+      "title": "Free Standards"
+    },
+    {
+      "speaker": "Jakub Steiner",
+      "title": "Gimp"
+    },
+    {
+      "speaker": "",
+      "title": "PHP"
+    },
+    {
+      "speaker": "David Axmark",
+      "title": "Mysql"
+    },
+    {
+      "speaker": "Michael Meeks",
+      "title": "Gnome"
+    },
+    {
+      "speaker": "",
+      "title": "OpenBSD"
+    },
+    {
+      "speaker": "Brian King",
+      "title": "Mozilla"
+    },
+    {
+      "speaker": "Bruce Momjian",
+      "title": "PostgreSQL"
+    },
+    {
+      "speaker": "David Faure",
+      "title": "KDE"
+    },
+    {
+      "speaker": "",
+      "title": "libqsearch"
+    },
+    {
+      "speaker": "Damien Sandras",
+      "title": "GnomeMeeting"
+    },
+    {
+      "speaker": "Yoann Vandoorselaere",
+      "title": "Prelude"
+    },
+    {
+      "speaker": "",
+      "title": "Jabber"
+    },
+    {
+      "speaker": "Owen Taylor",
+      "title": "GTK"
+    },
+    {
+      "speaker": "Solar Designer",
+      "title": "Openwall GNU/*/Linux"
+    },
+    {
+      "speaker": "",
+      "title": "Foomatic"
+    },
+    {
+      "speaker": "Julian Smart",
+      "title": "wxWindows"
+    },
+    {
+      "speaker": "Harald Welte",
+      "title": "netfilter/iptables"
+    },
+    {
+      "speaker": "",
+      "title": "Linux printing"
+    },
+    {
+      "speaker": "Clif Flynt",
+      "title": "Tcl/Tk"
+    },
+    {
+      "speaker": "Guenter Bartsch",
+      "title": "Xine"
+    },
+    {
+      "speaker": "",
+      "title": "OpenCA"
+    },
+    {
+      "speaker": "Thomas Vander Stichele",
+      "title": "GStreamer"
+    }
+  ],
+  "devrooms": {
+    "embedded": 13,
+    "gnome": 1,
+    "PostgreSQL": 1,
+    "kde": 1,
+    "GNUstep": 5,
+    "mozilla": 10
+  },
+  "notes": [
+    "Incorporate full details https://archive.fosdem.org/2003/index/dev_room/dev_room_embedded.html"
+  ]
+}

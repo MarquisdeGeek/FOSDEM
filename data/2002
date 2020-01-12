@@ -1,0 +1,161 @@
+{
+  "url": "https://archive.fosdem.org/2002/schedule/index.html",
+  "talks": {},
+  "main": [
+    {
+      "speaker": "Philippe Aigrin, Jean Michel Dalle",
+      "title": "Patents discussion"
+    },
+    {
+      "speaker": "Richard M Stallman",
+      "title": "keynote"
+    },
+    {
+      "speaker": "Adam Fedor",
+      "title": "GnuStep"
+    },
+    {
+      "speaker": "Richard Moore",
+      "title": "DProbe"
+    },
+    {
+      "speaker": "Tycho FRURU",
+      "title": "ipfc"
+    },
+    {
+      "speaker": "Michael Meeks",
+      "title": "GNOME2"
+    },
+    {
+      "speaker": "David Wheeler",
+      "title": "Secure programming"
+    },
+    {
+      "speaker": "Bernhart Reiter",
+      "title": "Freegis"
+    },
+    {
+      "speaker": "Richard Dale",
+      "title": "KDE bindings"
+    },
+    {
+      "speaker": "Thierry Matusiak",
+      "title": "Eclipse"
+    },
+    {
+      "speaker": "Phil Biondi",
+      "title": "Kernel Security"
+    },
+    {
+      "speaker": "",
+      "title": "Openstandards"
+    },
+    {
+      "speaker": "",
+      "title": "FSF panel discussion"
+    },
+    {
+      "speaker": "",
+      "title": "FOSDEM comunity support return"
+    },
+    {
+      "speaker": "",
+      "title": "FSF Award ceremony"
+    },
+    {
+      "speaker": "Vincent Rijmen",
+      "title": "Rijndael"
+    },
+    {
+      "speaker": "Jean-Michel Dalle",
+      "title": "Generic software"
+    },
+    {
+      "speaker": "Blasius Lofi Dewanto",
+      "title": "OpenUSS"
+    },
+    {
+      "speaker": "Matthias Brossard",
+      "title": "Open PKI"
+    },
+    {
+      "speaker": "Damien Sandras",
+      "title": "Gnomemeeting"
+    },
+    {
+      "speaker": "Till Kamppeter",
+      "title": "Linuxprinting"
+    },
+    {
+      "speaker": "Joost van Baal",
+      "title": "LIRE"
+    },
+    {
+      "speaker": "Bruno Marchal",
+      "title": "Quantum Computing"
+    },
+    {
+      "speaker": "Tristan Nitot",
+      "title": "Mozilla"
+    },
+    {
+      "speaker": "Werner Stuerenburg",
+      "title": "Mysql"
+    },
+    {
+      "speaker": "Loic Dachary",
+      "title": "Senga:Loic"
+    },
+    {
+      "speaker": "Gilles Fedak",
+      "title": "Global OS"
+    },
+    {
+      "speaker": "Richard Morrell",
+      "title": "Smoothwall"
+    },
+    {
+      "speaker": "",
+      "title": "Managing the development of your project"
+    },
+    {
+      "speaker": "Philip Hazel",
+      "title": "Exim"
+    },
+    {
+      "speaker": "DJ Adams",
+      "title": "Jabber"
+    },
+    {
+      "speaker": "Fjalar Ravia",
+      "title": "Advanced Web searching approaches"
+    },
+    {
+      "speaker": "Toon Knapen",
+      "title": "BOOST C++ libraries"
+    },
+    {
+      "speaker": "M. De Icaza",
+      "title": "Gnome/Mono"
+    },
+    {
+      "speaker": "Andy Oram",
+      "title": "P2P"
+    },
+    {
+      "speaker": "Sterling Hughes",
+      "title": "PHP"
+    },
+    {
+      "speaker": "Wim Vandeputte",
+      "title": "OpenBSD"
+    }
+  ],
+  "devrooms": {
+    "gnome": 11,
+    "PHP": 11,
+    "kde": 11,
+    "GNUstep": 11,
+    "mozilla": 11
+  }
+}

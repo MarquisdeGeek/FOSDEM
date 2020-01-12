@@ -1,0 +1,228 @@
+{
+  "url": "https://archive.fosdem.org/2007/schedule/speakers.html/",
+  "talks": {
+    "keynotes": 6
+  },
+  "main_tracks": 6,
+  "main": [
+    {
+      "speaker": "Georg Greve",
+      "title": "Beyond GPLv3"
+    },
+    {
+      "speaker": "Jim Gettys",
+      "title": "Keynote: OLPC"
+    },
+    {
+      "speaker": "Pieter Hintjens",
+      "title": "Status of Software Patents in Europe"
+    },
+    {
+      "speaker": "Simon Phipps",
+      "title": "Keynote: Liberating Java"
+    },
+    {
+      "speaker": "Aleksey Bragin",
+      "title": "ReactOS"
+    },
+    {
+      "speaker": "Andrew Morton",
+      "title": "Linux Kernel"
+    },
+    {
+      "speaker": "Dries Buytaert",
+      "title": "Drupal"
+    },
+    {
+      "speaker": "Federico Mena Quintero",
+      "title": "Profiling Desktop Applications"
+    },
+    {
+      "speaker": "H D Moore",
+      "title": "Metasploit Framework"
+    },
+    {
+      "speaker": "Jeremy Allison",
+      "title": "Samba"
+    },
+    {
+      "speaker": "Jim Blandy",
+      "title": "GDB Tracepoints"
+    },
+    {
+      "speaker": "Keith Packard",
+      "title": "X.org"
+    },
+    {
+      "speaker": "Kern Sibbald",
+      "title": "Bacula"
+    },
+    {
+      "speaker": "Kristian Høgsberg",
+      "title": "AIGLX"
+    },
+    {
+      "speaker": "Miguel de Icaza",
+      "title": "Turbocharging Linux with Mono"
+    },
+    {
+      "speaker": "Mike Schroepfer",
+      "title": "Mozilla"
+    },
+    {
+      "speaker": "Øyvind Kolås",
+      "title": "GEGL"
+    },
+    {
+      "speaker": "Paul Everitt",
+      "title": "Plone 3.0"
+    },
+    {
+      "speaker": "Pete Herzog",
+      "title": "Security Testing"
+    },
+    {
+      "speaker": "Peter Saint-Andre",
+      "title": "Secure Communications with Jabber"
+    },
+    {
+      "speaker": "Ronald G Minnich",
+      "title": "LinuxBIOS"
+    },
+    {
+      "speaker": "Tom Baeyens",
+      "title": "JBoss BPM"
+    }
+  ],
+  "lightning": [
+    "Freedom Task Force",
+    "Shane Coughlan",
+    "Ferrer",
+    "Sat 14:00-14:15",
+    "CMake",
+    "Alexander Neundorf",
+    "Ferrer",
+    "Sat 14:20-14:35",
+    "Pandora Free Monitoring System",
+    "Manuel Arostegui",
+    "Ferrer",
+    "Sat 14:40-14:55",
+    "Instlux",
+    "Jordi Massaguer",
+    "Ferrer",
+    "Sat 15:00-15:15",
+    "OpenWengo",
+    "Dave Neary",
+    "Ferrer",
+    "Sat 15:20-15:35",
+    "LiVES",
+    "Gabriel Finch",
+    "Ferrer",
+    "Sat 15:40-15:55",
+    "Parted",
+    "David Cantrell",
+    "Ferrer",
+    "Sat 16:00-16:15",
+    "Nagios Plugins",
+    "Ton Voon",
+    "Ferrer",
+    "Sat 16:20-16:35",
+    "Wt",
+    "Wim Dumon",
+    "Ferrer",
+    "Sat 16:40-16:55",
+    "MySQL",
+    "Lenz Grimmer",
+    "Ferrer",
+    "Sat 17:00-17:15",
+    "db4o",
+    "Jb Evain",
+    "Ferrer",
+    "Sat 17:20-17:35",
+    "MoulinWiki",
+    "Renaud Gaudin",
+    "Ferrer",
+    "Sat 17:40-17:55",
+    "Zzuf",
+    "Sam Hocevar",
+    "Ferrer",
+    "Sun 09:20-09:35",
+    "Balloon Open Hardware License",
+    "Wookey",
+    "Ferrer",
+    "Sun 09:40-09:55",
+    "phpAspect",
+    "William Candillon",
+    "Ferrer",
+    "Sun 10:00-10:15",
+    "Babel Free Auditing System",
+    "Manuel Arostegui",
+    "Ferrer",
+    "Sun 10:20-10:35",
+    "Amarok",
+    "Sven Krohlas",
+    "Ferrer",
+    "Sun 10:40-10:55",
+    "LogiLogi Manta",
+    "Wybo Wiersma",
+    "Ferrer",
+    "Sun 11:00-11:15",
+    "MetaLinks",
+    "Bram Neijt",
+    "Ferrer",
+    "Sun 11:20-11:35",
+    "ReaR",
+    "Gratien D'haese",
+    "Ferrer",
+    "Sun 11:40-11:55",
+    "CCAPI2",
+    "Ulrich Staudinger",
+    "Ferrer",
+    "Sun 14:00-14:15",
+    "SIP Communicator",
+    "Emil Ivov",
+    "Ferrer",
+    "Sun 14:20-14:35",
+    "OSSIE",
+    "Philip Balister",
+    "Ferrer",
+    "Sun 14:40-14:55",
+    "OpenOffice.org port for Mac OS X",
+    "Eric Bachard",
+    "Ferrer",
+    "Sun 15:00-15:15",
+    "Mapyrus",
+    "Simon Chenery",
+    "Ferrer",
+    "Sun 15:20-15:35",
+    "PSPP",
+    "John Darrington",
+    "Ferrer",
+    "Sun 15:40-15:55",
+    "OpenEmbedded",
+    "Holger Freythe",
+    "Ferrer",
+    "Sun 16:00-16:15",
+    "Mozart-Oz",
+    "Boriss Mejias",
+    "Ferrer",
+    "Sun 16:20-16:35"
+  ],
+  "devrooms": {
+    "crossdesktop": 5,
+    "kde": 7,
+    "gnome": 11,
+    "opensuse": 17,
+    "mozilla": 12,
+    "classpath": 4,
+    "centos": 16,
+    "jabber": 11,
+    "gnustep": 8,
+    "python": 11,
+    "research": 5,
+    "xorg": 10,
+    "gentoo": 12,
+    "debian": 13,
+    "embedded": 13
+  }
+}

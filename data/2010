@@ -1,0 +1,250 @@
+{
+  "url": "https://archive.fosdem.org/2010/schedule/tracks.html",
+  "talks": {
+    "keynotes": 4
+  },
+  "main": [
+    {
+      "speaker": "FOSDEM staff",
+      "title": "Welcome"
+    },
+    {
+      "speaker": "Brooks Davis",
+      "title": "Promoting Open Source Methods at a Large Company"
+    },
+    {
+      "speaker": "Richard Clayton",
+      "title": "Evil on the Internet"
+    },
+    {
+      "speaker": "Greg Kroah-Hartman",
+      "title": "Write and Submit your first Linux kernel Patch"
+    },
+    {
+      "speaker": "Elena Reshetova",
+      "title": "Maemo 6 security framework, making happy DRM business and freedom lovers with the same device"
+    },
+    {
+      "speaker": "David Fifield",
+      "title": "The Nmap scripting engine"
+    },
+    {
+      "speaker": "Wim Remes",
+      "title": "OSSEC"
+    },
+    {
+      "speaker": "Isabel Drost",
+      "title": "Large scale data analysis made easy - Apache Hadoop"
+    },
+    {
+      "speaker": "David Recordon",
+      "title": "Scaling Facebook with OpenSource tools"
+    },
+    {
+      "speaker": "Evan Prodromou",
+      "title": "Inside StatusNet: How Identi.ca Works"
+    },
+    {
+      "speaker": "Mark Wielaard",
+      "title": "What is my system doing - Full System Observability with SystemTap"
+    },
+    {
+      "speaker": "Bernard Li",
+      "title": "Ganglia: 10 years of monitoring clusters and grids"
+    },
+    {
+      "speaker": "Lindsay Holmwood",
+      "title": "Starting the sysadmin tools renaissance: Flapjack + cucumber-nagios"
+    },
+    {
+      "speaker": "Adrian Bowyer",
+      "title": "RepRap - Manufacturing for the Masses"
+    },
+    {
+      "speaker": "Andrew Lewman",
+      "title": "Tor: Building, Growing, and Extending Online Anonymity"
+    },
+    {
+      "speaker": "Andrew Tanenbaum",
+      "title": "MINIX 3: a Modular, Self-Healing POSIX-compatible Operating System"
+    },
+    {
+      "speaker": "David Fetter",
+      "title": "Postgresql: Lists and Recursion and Trees (oh my)"
+    },
+    {
+      "speaker": "Sergey Petrunya",
+      "title": "MariaDB: extra features that make it a better branch of MySQL"
+    },
+    {
+      "speaker": "Benoît Chesneau",
+      "title": "CouchDB! REST and Database!"
+    },
+    {
+      "speaker": "Dylan Schiemann",
+      "title": "Building High Performance Web Applications with the Dojo Toolkit"
+    },
+    {
+      "speaker": "Christoph Pojer",
+      "title": "MooTools as a General Purpose Application Framework"
+    },
+    {
+      "speaker": "Philip Tellis",
+      "title": "Javascript charting with YUI Flot"
+    }
+  ],
+  "lightning": [
+    "FOSDEM: Lightning Opening Talk",
+    "Tias Guns",
+    "Ferrer",
+    "Sat 13:00-13:15",
+    "LiMux: 5 years on the way to free software in Munich",
+    "Florian Schiessl",
+    "Ferrer",
+    "Sat 13:20-13:35",
+    "CiviCRM: Common goals of FOSS and Not For Profit Organisations",
+    "Xavier DUTOIT",
+    "Ferrer",
+    "Sat 13:40-13:55",
+    "PortableApps.com: The PortableApps.com Platform, an Introduction and Overview",
+    "Steven Lamerton",
+    "Ferrer",
+    "Sat 14:00-14:15",
+    "OpenPCF: An Open Provisioning and Control Framework",
+    "Rubin Simons",
+    "Ferrer",
+    "Sat 14:20-14:35",
+    "GNU Savannah: 100% free software mass-hosting",
+    "Sylvain Beucler",
+    "Ferrer",
+    "Sat 14:40-14:55",
+    "Qi Hardware's Ben NanoNote: open to the bone device",
+    "David Reyes Samblas Martinez",
+    "Ferrer",
+    "Sat 15:00-15:15",
+    "tinc: the difficulties of a peer-to-peer VPN on the hostile Internet",
+    "Guus Sliepen",
+    "Ferrer",
+    "Sat 15:20-15:35",
+    "Beernet: Building peer-to-peer systems with transactional replicated storage",
+    "Boriss Mejias",
+    "Ferrer",
+    "Sat 15:40-15:55",
+    "SIP Communicator: Skype-like conf calls with SIP Communicator",
+    "Emil Ivov",
+    "Ferrer",
+    "Sat 16:00-16:15",
+    "Kamailio (OpenSER) 3.0.0: redefinition of SIP server",
+    "Daniel-Constantin Mierla",
+    "Ferrer",
+    "Sat 16:20-16:35",
+    "asterisk: An introduction to Asterisk Development",
+    "Mark Michelson",
+    "Ferrer",
+    "Sat 16:40-16:55",
+    "csync: Roaming Home Directories",
+    "Andreas Schneider",
+    "Ferrer",
+    "Sat 17:00-17:15",
+    "Faban: Developing benchmarks and workloads using Faban 1.0",
+    "Amanda Waite",
+    "Ferrer",
+    "Sat 17:20-17:35",
+    "shadowcircle: a pentesting distribution alternative",
+    "clement Game",
+    "Ferrer",
+    "Sat 17:40-17:55",
+    "SyncEvolution: From the SyncML Protocol to Free and Open Implementations",
+    "Patrick Ohly",
+    "Ferrer",
+    "Sat 18:00-18:15",
+    "GeeXboX: An Introduction to Enna Media Center",
+    "Benjamin Zores",
+    "Ferrer",
+    "Sat 18:20-18:35",
+    "Uzbl: A webbrowser which adheres to the unix philosophy",
+    "Dieter Plaetinck",
+    "Ferrer",
+    "Sat 18:40-18:55",
+    "Kerrighed: Flexible distributed checkpoint/restart",
+    "Matthieu Fertre",
+    "Ferrer",
+    "Sun 10:00-10:15",
+    "Apache ACE: distributing software components",
+    "Marcel Offermans",
+    "Ferrer",
+    "Sun 10:20-10:35",
+    "Cloudlets: universal server images for the cloud",
+    "Solomon Hykes",
+    "Ferrer",
+    "Sun 10:40-10:55",
+    "Wt::Dbo: a C++ ORM (Object Relational Mapping) library",
+    "Koen Deforche",
+    "Ferrer",
+    "Sun 11:00-11:15",
+    "OpenERP: Design applicactions with OpenObject in minutes",
+    "Fabien Pinckaers",
+    "Ferrer",
+    "Sun 11:20-11:35",
+    "CAcert: Client-certificates and SSO - the old-new thing",
+    "Ian Grigg",
+    "Ferrer",
+    "Sun 11:40-11:55",
+    "Open-source software: Blaming the unknown, or a constructive approach to technology",
+    "Giuseppe Maxia",
+    "Ferrer",
+    "Sun 14:00-14:15",
+    "Kaizendo.org: Customizing schoolbooks the free software way",
+    "Salve Nilsen",
+    "Ferrer",
+    "Sun 14:20-14:35",
+    "The Wiki for Open Technologies: How to share your projects and knowledge",
+    "Oscar Puyal",
+    "Ferrer",
+    "Sun 14:40-14:55",
+    "QuBit: Introducing Quantum Superpositions",
+    "Steven Goodwin",
+    "Ferrer",
+    "Sun 15:00-15:15",
+    "Padre, the Perl IDE: Building an open source team, getting the project to users against the odds",
+    "Gabor Szabo",
+    "Ferrer",
+    "Sun 15:20-15:35",
+    "Coccinelle: Finding bugs in open source systems code",
+    "Julia Lawall",
+    "Ferrer",
+    "Sun 15:40-15:55",
+    "UmlCanvas: bringing UML diagrams to the web",
+    "Christophe Van Ginneken",
+    "Ferrer",
+    "Sun 16:00-16:15",
+    "jpoker: a pure javascript poker client",
+    "Johan Euphrosine",
+    "Ferrer",
+    "Sun 16:20-16:35"
+  ],
+  "devrooms": {
+    "distributions": 32,
+    "embedded": 17,
+    "kde": 8,
+    "opensuse": 12,
+    "mozilla": 17,
+    "gnome": 10,
+    "ooo": 9,
+    "postgres": 7,
+    "coreboot": 6,
+    "freejava": 12,
+    "ruby": 5,
+    "jboss": 5,
+    "mono": 12,
+    "crossdesktop": 9,
+    "gnustep": 10,
+    "nosql": 11,
+    "mysql": 14,
+    "bsd": 8,
+    "xorg": 4,
+    "altos": 16,
+    "drupal": 11,
+    "openmoko": 5
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "url": "https://archive.fosdem.org/2004/2004/index/schedule.html",
+  "talks": {},
+  "main": [
+    {
+      "speaker": "Tim O'Reilly",
+      "title": "The Open Source Paradigm Shift"
+    },
+    {
+      "speaker": "Richard M Stallman",
+      "title": "keynote"
+    },
+    {
+      "speaker": "Robert Love",
+      "title": "Kernel & Desktop"
+    },
+    {
+      "speaker": "Gunnar Schmidt",
+      "title": "KDEAP"
+    },
+    {
+      "speaker": "Jonathan Corbet",
+      "title": "Linux kernel : 2.6 internals"
+    },
+    {
+      "speaker": "Bill Haneman",
+      "title": "GOK"
+    },
+    {
+      "speaker": "Hans Reiser",
+      "title": "ReiserFS"
+    },
+    {
+      "speaker": "Roger Butenuth",
+      "title": "BRASS"
+    },
+    {
+      "speaker": "Florent Benoit",
+      "title": "JOnAS"
+    },
+    {
+      "speaker": "Stefan Seefeld",
+      "title": "Fresco"
+    },
+    {
+      "speaker": "Tom Tromey",
+      "title": "GCJ"
+    },
+    {
+      "speaker": "Denis Oliver Kropp",
+      "title": "DirectFB"
+    },
+    {
+      "speaker": "Ian Formanek",
+      "title": "NetBeans"
+    },
+    {
+      "speaker": "Keith Packard",
+      "title": "XFree86"
+    },
+    {
+      "speaker": "Matthias Brossard",
+      "title": "Cryptonit"
+    },
+    {
+      "speaker": "Dominique Colnet",
+      "title": "SmartEiffel"
+    },
+    {
+      "speaker": "Henning Brauer",
+      "title": "OpenBSD"
+    },
+    {
+      "speaker": "Dave Cross",
+      "title": "Perl"
+    },
+    {
+      "speaker": "",
+      "title": "Free Java & Security"
+    },
+    {
+      "speaker": "Richard Kilmer",
+      "title": "Ruby"
+    },
+    {
+      "speaker": "Jon Maddog Hall",
+      "title": "Closing"
+    }
+  ],
+  "devrooms": {
+    "mosix": 3,
+    "java": 8,
+    "mozilla": 1,
+    "tcl": 1,
+    "embedded": 11,
+    "kde": 2,
+    "mysql": 1
+  }
+}

@@ -1,0 +1,22 @@
+Data that is missing
+====================
+
+* Durations of talks
+* Speakers and topics for early devroom talks
+* Early devrooms had no schedule on the FOSDEM site
+* Lightning talks from 2005 were unofficial. Are they recorded anywhere? Should they be added?
+
+
+Information that might be wrong
+===============================
+
+* Unified naming for the devrooms (see devrooms.js)
+* Speaker names (e.g. Steve and Steven will not be aggregated)
+
+
+Open questions
+==============
+
+* Do opening/closing talks count?
+* Do "Welcome to the devroom" count?
+* Do LPI exams count?

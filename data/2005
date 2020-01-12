@@ -1,0 +1,113 @@
+{
+  "url": "https://archive.fosdem.org/2005/2005/index/schedule.html",
+  "talks": {},
+  "main": [
+    {
+      "speaker": "Jimmy 'Jimbo' Wales",
+      "title": "Wikipedia"
+    },
+    {
+      "speaker": "Richard M Stallman",
+      "title": "keynote"
+    },
+    {
+      "speaker": "Ethan Galstad",
+      "title": "Nagios"
+    },
+    {
+      "speaker": "Alexander Dymo, Harald Fernengel",
+      "title": "Kdevelop"
+    },
+    {
+      "speaker": "Marty Roesch",
+      "title": "Snort"
+    },
+    {
+      "speaker": "Andreas Zeller",
+      "title": "ddd"
+    },
+    {
+      "speaker": "Gerald Combs",
+      "title": "Ethereal"
+    },
+    {
+      "speaker": "Benoit Minisini",
+      "title": "Gambas"
+    },
+    {
+      "speaker": "Matthias Ettrich",
+      "title": "KDE"
+    },
+    {
+      "speaker": "Marius Mauch",
+      "title": "Gentoo"
+    },
+    {
+      "speaker": "Olivier Fourdan",
+      "title": "XFCE"
+    },
+    {
+      "speaker": "Jeff Johnson",
+      "title": "RPM"
+    },
+    {
+      "speaker": "Alex Larsson",
+      "title": "Nautilus"
+    },
+    {
+      "speaker": "Stuart Winter",
+      "title": "Slackware"
+    },
+    {
+      "speaker": "Alan Cox",
+      "title": "Kernel"
+    },
+    {
+      "speaker": "Olle Mulmo",
+      "title": "Globus Toolkit"
+    },
+    {
+      "speaker": "Alasdair Kergon",
+      "title": "Device mapper"
+    },
+    {
+      "speaker": "Alan Robertson",
+      "title": "LinuxHA"
+    },
+    {
+      "speaker": "Pat Mochel",
+      "title": "SysFS/Kernel Driver Core"
+    },
+    {
+      "speaker": "Ken Preslan",
+      "title": "OpenGFS"
+    },
+    {
+      "speaker": "Harald Welte",
+      "title": "GPL Enforcement"
+    }
+  ],
+  "devrooms": {
+    "calibre": 7,
+    "clustering": 1,
+    "dokeos": 1,
+    "embedded": 1,
+    "gnome": 5,
+    "mozilla": 1,
+    "jabber": 1,
+    "perl": 4,
+    "tcl": 1,
+    "hurd": 1,
+    "kde": 5,
+    "php": 3,
+    "classpath": 9,
+    "debian": 1,
+    "gentoo": 1,
+    "gnustep": 1,
+    "drupal": 9,
+    "opengroupware": 5
+  },
+  "notes": [
+    "There were lightning talks, but marked as 'unofficial'"
+  ]
+}
