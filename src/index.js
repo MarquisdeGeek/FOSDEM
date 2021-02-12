@@ -12,7 +12,7 @@ const processors = require('./processors')();
 let totals = processors.createResultsSet();
 
 let data = [];
-for (let year = 2001; year <= 2020; ++year) {
+for (let year = 2001; year <= 2021; ++year) {
   let filename = `data/${year}`;
   let fileData = fs.readFileSync(filename).toString();
   data[year] = parsers.processData(`${year}`, fileData);
