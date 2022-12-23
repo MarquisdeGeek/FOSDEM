@@ -14,9 +14,12 @@ module.exports = function() {
 
 
   function speakerCount(yearly_dataset) {
-    return Object.keys(yearly_dataset.peopleTalks).length;
+    return speakerList(yearly_dataset).length;
   }
 
+  function speakerList(yearly_dataset) {
+    return Object.keys(yearly_dataset.peopleTalks);
+  }
 
   function devroomNameList(yearly_dataset) {
     return `${Object.keys(yearly_dataset.devrooms).map((d)=>`'${d}'`).join(',')}`;
@@ -52,15 +55,33 @@ module.exports = function() {
     return yearly_dataset.talks.filter((t) => t.type === 'lightningtalk').length;
   }
 
+  function speakerTalksInYear(yearly, speaker) {
+    let total = 0;
+    let year = 0;
+let yr = yearly
+      if (yr.peopleTalks[speaker]) {
+         let inThisYear = yr.peopleTalks[speaker].length;
+         // Ignore tied years
+         if (inThisYear > total) {
+           year = yr.year;
+           total = inThisYear;
+        }
+      }
+    return {total, year};
+  }
+
+
   return {
     talkCount,
     durationInMinutes,
     speakerCount,
+    speakerList,
     devroomNameList,
     devroomNameListDecorated,
     devroomCount,
     devroomTalks,
     devroomTalksTotal,
-    lightningtalkCount
+    lightningtalkCount,
+    speakerTalksInYear
   };
 };

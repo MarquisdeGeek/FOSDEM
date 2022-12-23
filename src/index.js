@@ -21,13 +21,15 @@ for (let year = 2001; year <= 2022; ++year) {
   totals = processors.mergeResultsSet(totals, data[year]);
 
   // Print it
-  reports.all(`For ${year}...`, data[year]);
+  //reports.all(`For ${year}...`, data[year]);
 }
 
 // Accumulative results
 reports.all("Total", totals);
 reports.devroomsOverTime(totals, data);
 reports.csv(totals, data);
+reports.speakerTalksInYear(totals, data);
 
 // e.g.
 reports.speakerBio(totals, data, 'Steven Goodwin');
+

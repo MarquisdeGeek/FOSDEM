@@ -132,6 +132,31 @@ module.exports = function(log) {
     });
   }
 
+  function speakerTalksInYear(results, yearly) {
+    log.write(``);
+    log.write(`Prolific speakers in a given year:`);
+
+    let total = 0;
+    let yearlyMax = {};
+    yearly.forEach((yr) => {
+      let speakers = analysis.speakerList(yr);
+      speakers.forEach((speaker) => {
+         let presentationsThisYear = analysis.speakerTalksInYear(yr, speaker);
+         if (presentationsThisYear.total > 2) {
+           yearlyMax[presentationsThisYear.total] = yearlyMax[presentationsThisYear.total] || [];
+           yearlyMax[presentationsThisYear.total].push({ who: speaker, when: yr.year });
+         }
+      });
+    });
+
+    Object.keys(yearlyMax).sort().reverse().forEach((highest) => {
+      log.write(`${highest} talks:`);
+      yearlyMax[highest].forEach((spkr) => {
+        log.write(`  ${spkr.who} (${spkr.when})`);
+      });
+    });
+  }
+
   function multipleSpeakers(results) {
     let peopleChart = [];
     for (let speaker in results.peopleTalks) {
@@ -161,6 +186,7 @@ module.exports = function(log) {
     all,
     csv,
     devroomsOverTime,
-    speakerBio
+    speakerBio,
+    speakerTalksInYear
   }
 };
