@@ -55,18 +55,18 @@ module.exports = function() {
     return yearly_dataset.talks.filter((t) => t.type === 'lightningtalk').length;
   }
 
-  function speakerTalksInYear(yearly, speaker) {
+  function speakerTalksInYear(yearly_dataset, speaker) {
     let total = 0;
     let year = 0;
-let yr = yearly
-      if (yr.peopleTalks[speaker]) {
-         let inThisYear = yr.peopleTalks[speaker].length;
-         // Ignore tied years
-         if (inThisYear > total) {
-           year = yr.year;
-           total = inThisYear;
-        }
+
+    if (yearly_dataset.peopleTalks[speaker]) {
+       let inThisYear = yearly_dataset.peopleTalks[speaker].length;
+       // Ignore tied years
+       if (inThisYear > total) {
+         year = yearly_dataset.year;
+         total = inThisYear;
       }
+    }
     return {total, year};
   }
 
