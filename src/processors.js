@@ -19,6 +19,7 @@ module.exports = function() {
     let thistalk = {
       title: information.title || '',
       speaker: information.speaker,
+      devroom: devroomnames.unify(information.devroom),
       type: unifyTalkType(information.type) || 'main'
     };
 

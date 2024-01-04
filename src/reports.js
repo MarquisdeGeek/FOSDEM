@@ -125,11 +125,30 @@ module.exports = function(log) {
   function speakerBio(results, yearly, speaker) {
     log.write(`Bio for ${speaker}`);
 
+    let totalYears = 0;
+    let totalTalks = 0;
+    let devRoomList = {};
     yearly.forEach((yr) => {
       if (yr.peopleTalks[speaker]) {
         log.write(`${yr.year} : (${yr.peopleTalks[speaker].length}) : ${yr.peopleTalks[speaker].map((t)=>`'${t.title}'`).join(', ')}`);
+        // Acculumate different dev rooms
+        yr.peopleTalks[speaker].forEach((tlk) => {
+          devRoomList[tlk.devroom] = true;
+        });
+        //
+        totalTalks += yr.peopleTalks[speaker].length;
+        ++totalYears;
       }
     });
+
+    let totalDevRooms = Object.keys(devRoomList).length;
+
+    log.write(``);
+    log.write(`FOSDEM Scorecard:`);
+    log.write(`  Spoken at: ${totalYears}`);
+    log.write(`  Talks given: ${totalTalks}`);
+    log.write(`  Devrooms: ${totalDevRooms}`);
+
   }
 
   function speakerTalksInYear(results, yearly) {

@@ -31,7 +31,8 @@ module.exports = function() {
           let speaker = '';
           processors.addTalk(results, {
             title: talkname,
-            speaker: speaker
+            speaker: speaker,
+            devroom: room
           });
           processors.addDevRoomTalk(results, room);
         }
@@ -45,7 +46,8 @@ module.exports = function() {
     j.main.forEach(function(the_talk) {
       processors.addTalk(results, {
         title: the_talk.title,
-        speaker: the_talk.speaker
+        speaker: the_talk.speaker,
+        devroom: "unknown" // the data doesn't exist, since there were no devrooms at this stage
       });
     })
 
@@ -59,7 +61,8 @@ module.exports = function() {
     j.main.forEach(function(event) {
       processors.addTalk(results, {
         title: event.title,
-        speaker: event.speaker
+        speaker: event.speaker,
+        devroom: event.track
       });
     });
     //
@@ -69,7 +72,8 @@ module.exports = function() {
       processors.addTalk(results, {
         title: j.lightning[i + 0],
         speaker: j.lightning[i + 1],
-        type: 'lightningtalk'
+        type: 'lightningtalk',
+        devroom: "Lightning Talks"
       });
     }
 
@@ -117,6 +121,7 @@ module.exports = function() {
               title: `${event.title}${event.subtitle ? ' - ' + event.subtitle : ''}`,
               speaker: event.persons.person,
               type: event.type,
+              devroom: event.track,
               duration: event.duration
             });
           });

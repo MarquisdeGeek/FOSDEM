@@ -38,6 +38,8 @@ module.exports = function() {
   const ROOM_MINIMALIST_LANGUAGES = 'Minimalistic Languages';
   const ROOM_INFRA_MANAGEMENT = 'Infra Management';
   const ROOM_BACKUP_RECOVERY = 'Backup and Recovery';
+  const ROOM_REAL_TIME_COMMUNICATIONS = 'Real-time Communications';
+  const ROOM_LIGHTNING_TALKS = 'Lightning Talks';
 
   function unify(room) {
     const mapping = { // in the format 'from': 'to'
@@ -158,7 +160,12 @@ module.exports = function() {
       'PHP and friends': ROOM_PHP,
       'PHP and Friends': ROOM_PHP,
       'php': ROOM_PHP,
-      'PHP': ROOM_PHP
+      'PHP': ROOM_PHP,
+      'Real Time': ROOM_REAL_TIME_COMMUNICATIONS,
+      'Real Time Communications': ROOM_REAL_TIME_COMMUNICATIONS,
+      'Lightning talks': ROOM_LIGHTNING_TALKS,
+      'Lightning Talks': ROOM_LIGHTNING_TALKS,
+      'Lightning Talk': ROOM_LIGHTNING_TALKS
 
       // Do we map the following?
       // 'suse': 'opensuse',
