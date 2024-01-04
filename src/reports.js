@@ -130,7 +130,7 @@ module.exports = function(log) {
     let devRoomList = {};
     yearly.forEach((yr) => {
       if (yr.peopleTalks[speaker]) {
-        log.write(`${yr.year} : (${yr.peopleTalks[speaker].length}) : ${yr.peopleTalks[speaker].map((t)=>`'${t.title}'`).join(', ')}`);
+        log.write(`${yr.year} : (${yr.peopleTalks[speaker].length}) : ${yr.peopleTalks[speaker].map((t)=>`'${t.title}' (${t.devroom})`).join(', ')}`);
         // Acculumate different dev rooms
         yr.peopleTalks[speaker].forEach((tlk) => {
           devRoomList[tlk.devroom] = true;

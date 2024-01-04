@@ -12,6 +12,7 @@ module.exports = function() {
   const ROOM_MONO = 'Mono';
   const ROOM_GNU_STEP = 'GNUstep Devroom';
   const ROOM_MYSQL = 'MySQL and Friends';
+  const ROOM_MARIADB = 'MariaDB';  
   const ROOM_PERL = 'Perl Programming Languages';
   const ROOM_PHP = 'PHP and friends';
   const ROOM_CONFIGURATION_MANAGEMENT = 'Configuration Systems Management';
@@ -40,6 +41,11 @@ module.exports = function() {
   const ROOM_BACKUP_RECOVERY = 'Backup and Recovery';
   const ROOM_REAL_TIME_COMMUNICATIONS = 'Real-time Communications';
   const ROOM_LIGHTNING_TALKS = 'Lightning Talks';
+  const ROOM_MATRIX = "Matrix";
+  const ROOM_OPEN_DOCUMENT_EDITORS = "Open Document Editors";
+  const ROOM_COLLABORATION_CMS = "Collaboration and Content Management";
+  //
+  const ROOM_UNKNOWN = "unknown";
 
   function unify(room) {
     const mapping = { // in the format 'from': 'to'
@@ -53,6 +59,7 @@ module.exports = function() {
       'Jabber and XMPP Devroom': ROOM_JABBER,
       'Decentralised Internet and Privacy': ROOM_DECENTRALISED,
       'Decentralised Internet': ROOM_DECENTRALISED,
+      'Decentralized Internet and Privacy': ROOM_DECENTRALISED,
       'python': 'Python',
       'HPC and computational science': ROOM_HPC,
       'HPC, Big Data and Data Science': ROOM_HPC,
@@ -79,6 +86,8 @@ module.exports = function() {
       'libreoffice_devroom': ROOM_LIBRE_OFFICE,
       'LibreOffice Devroom': ROOM_LIBRE_OFFICE,
       'LibreOffice': ROOM_LIBRE_OFFICE,
+      'LibreOffice Technology': ROOM_LIBRE_OFFICE,
+      'LibreOffice Technology Development Platform': ROOM_LIBRE_OFFICE,
       'open_source_telephony_devroom': ROOM_TELEPHONY,
       'Telephony and Communications Devroom': ROOM_TELEPHONY,
       'Telephony': ROOM_TELEPHONY,
@@ -116,6 +125,10 @@ module.exports = function() {
       'MySQL': ROOM_MYSQL,
       'MySQL, MariaDB and Friends': ROOM_MYSQL,
       'MySQL and Friends Devroom': ROOM_MYSQL,
+      // Ugh! What should we do here, when we have two projects (MySQL & MariaDB) sharing rooms?
+      'MariaDB': ROOM_MARIADB,
+      'MariaDB Server': ROOM_MARIADB,
+      'MariaDB, MySQL and Friends': ROOM_MARIADB,
       'distributions': 'Distributions',
       'nosql': 'NoSQL',
       'gnustep': ROOM_GNU_STEP,
@@ -124,7 +137,9 @@ module.exports = function() {
       'Configuration management': ROOM_CONFIGURATION_MANAGEMENT,
       'Configuration Management': ROOM_CONFIGURATION_MANAGEMENT,
       'Config management': ROOM_CONFIGURATION_MANAGEMENT,
+      'Config Management': ROOM_CONFIGURATION_MANAGEMENT,
       'Configuration and Systems Management Devroom': ROOM_CONFIGURATION_MANAGEMENT,
+      'Configuration Systems Management': ROOM_CONFIGURATION_MANAGEMENT,
       'perl': ROOM_PERL,
       'Perl': ROOM_PERL,
       'Perl Devroom': ROOM_PERL,
@@ -163,14 +178,29 @@ module.exports = function() {
       'PHP': ROOM_PHP,
       'Real Time': ROOM_REAL_TIME_COMMUNICATIONS,
       'Real Time Communications': ROOM_REAL_TIME_COMMUNICATIONS,
+      'Communications': ROOM_REAL_TIME_COMMUNICATIONS,
+      'Real Time Communications (RTC)': ROOM_REAL_TIME_COMMUNICATIONS,
       'Lightning talks': ROOM_LIGHTNING_TALKS,
       'Lightning Talks': ROOM_LIGHTNING_TALKS,
-      'Lightning Talk': ROOM_LIGHTNING_TALKS
+      'Lightning Talk': ROOM_LIGHTNING_TALKS,
+      'Matrix': ROOM_MATRIX,
+      'Matrix.org Foundation &amp; Community': ROOM_MATRIX,
+      'Open document editors': ROOM_OPEN_DOCUMENT_EDITORS,
+      'Open Document editors': ROOM_OPEN_DOCUMENT_EDITORS,
+      'Open Document Editors': ROOM_OPEN_DOCUMENT_EDITORS,
+      'Collaborative Information and Content Management Applications': ROOM_COLLABORATION_CMS,
+      'Collaboration and Content Management': ROOM_COLLABORATION_CMS
 
       // Do we map the following?
       // 'suse': 'opensuse',
+      // Do we automatically to something magic to ignore case difference?
       // Others..?
     };
+    
+    if (typeof room === typeof undefined) {
+      return ROOM_UNKNOWN;
+    }
+
     return mapping[room] || room;
   }
 
