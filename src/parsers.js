@@ -107,8 +107,9 @@ module.exports = function() {
 
 
   function pentabarf(results, xmlData) {
-    let xmlparser = require('fast-xml-parser');
-    let j = xmlparser.parse(xmlData);
+    const xmlparser = require('fast-xml-parser');
+    const parser = new xmlparser.XMLParser();
+    const j = parser.parse(xmlData);
 
     j.schedule.day.forEach((day) => {
       day.room.forEach((room) => {
