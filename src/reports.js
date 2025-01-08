@@ -155,7 +155,7 @@ module.exports = function(log) {
     log.write(`FOSDEM Scorecard:`);
     log.write(`  Spoken at: ${totalYears}`);
     log.write(`  Talks given: ${totalTalks}`);
-    log.write(`  Devrooms: ${totalDevRooms}`);
+    log.write(`  Devroom diversity: ${totalDevRooms}`);
 
   }
 
