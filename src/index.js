@@ -2,12 +2,22 @@
 'use strict';
 
 const fs = require('fs')
+const { ArgumentParser } = require('argparse');
 
 const reports = require('./reports')({
   write: console.log
 });
 const parsers = require('./parsers')();
 const processors = require('./processors')();
+
+
+const parser = new ArgumentParser({
+  description: 'Argparse example'
+});
+ 
+parser.add_argument('-s', '--speaker');
+const parsedArgs = parser.parse_args();
+
 
 let totals = processors.createResultsSet();
 
@@ -31,5 +41,5 @@ reports.csv(totals, data);
 reports.speakerTalksInYear(totals, data);
 
 // e.g.
-reports.speakerBio(totals, data, 'Steven Goodwin');
+reports.speakerBio(totals, data, parsedArgs.speaker || 'Steven Goodwin');
 
