@@ -19,7 +19,6 @@ module.exports = function(log) {
 
   function csv(results, yearly) {
     log.write(``);
-    const lineYears = 0;
     const lineTalks = 1;
     const lineDuration = 2;
     const lineSpeakers = 3;
@@ -28,7 +27,6 @@ module.exports = function(log) {
     const lineLightning = 6;
     let lines = [];
 
-    lines[lineYears] = ['Year'];
     lines[lineTalks] = ['Talks'];
     lines[lineDuration] = ['Duration (mins)'];
     lines[lineSpeakers] = ['Speakers'];
@@ -37,7 +35,6 @@ module.exports = function(log) {
     lines[lineLightning] = ['Lightning talks'];
 
     yearly.forEach((yr) => {
-      lines[lineYears].push(yr.year);
       lines[lineTalks].push(analysis.talkCount(yr));
       lines[lineDuration].push(analysis.durationInMinutes(yr));
       lines[lineSpeakers].push(analysis.speakerCount(yr));
@@ -46,8 +43,19 @@ module.exports = function(log) {
       lines[lineLightning].push(analysis.lightningtalkCount(yr));
     });
 
+    // Write header
+    let header = '| Year |';
+    let separator = '| ---- |';
+    yearly.forEach((yr) => {
+      header += ` ${yr.year} |`;
+      separator += ` ---- |`;
+    });
+    log.write(header);
+    log.write(separator);
+
+    // Write table
     lines.forEach((line) => {
-      log.write(line.map((t) => `'${t}'`).join(', '));
+      log.write(`| ${line.map((t) => `${t}`).join(' | ')} |`);
     })
   }
 
