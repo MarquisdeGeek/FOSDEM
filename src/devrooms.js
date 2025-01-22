@@ -44,6 +44,9 @@ module.exports = function() {
   const ROOM_MATRIX = "Matrix";
   const ROOM_OPEN_DOCUMENT_EDITORS = "Open Document Editors";
   const ROOM_COLLABORATION_CMS = "Collaboration and Content Management";
+  const ROOM_GCC = "GCC devroom";
+  const ROOM_EDUCATION = "FOSS Educational Programming Languages";
+  const ROOM_POSTGRESQL = 'PostgreSQL';
   //
   const ROOM_UNKNOWN = "unknown";
 
@@ -113,9 +116,10 @@ module.exports = function() {
       'ruby': 'Ruby',
       'ooo': 'Apache OpenOffice',
       'openoffice': 'Apache OpenOffice',
-      'postgresql_devroom': 'PostgreSQL',
-      'postgres': 'PostgreSQL',
-      'PostgreSQL Devroom': 'PostgreSQL',
+      'postgresql_devroom': ROOM_POSTGRESQL,
+      'postgres': ROOM_POSTGRESQL,
+      'PostgreSQL Devroom': ROOM_POSTGRESQL,
+      'PostgreSQL devroom': ROOM_POSTGRESQL,
       'ada': ROOM_ADA,
       'Ada Devroom': ROOM_ADA,
       'bsd': ROOM_BSD,
@@ -145,6 +149,7 @@ module.exports = function() {
       'Perl Devroom': ROOM_PERL,
       'Virtualisation': ROOM_VIRTUALISATION,
       'Virtualization and Cloud Devroom': ROOM_VIRTUALISATION,
+      'Virtualization and Cloud Infrastructure': ROOM_VIRTUALISATION,
       'LLVM': ROOM_LLVM,
       'LLVM Toolchain': ROOM_LLVM,
       'Javascript': 'JavaScript',
@@ -189,8 +194,10 @@ module.exports = function() {
       'Open Document editors': ROOM_OPEN_DOCUMENT_EDITORS,
       'Open Document Editors': ROOM_OPEN_DOCUMENT_EDITORS,
       'Collaborative Information and Content Management Applications': ROOM_COLLABORATION_CMS,
-      'Collaboration and Content Management': ROOM_COLLABORATION_CMS
-
+      'Collaboration and Content Management': ROOM_COLLABORATION_CMS,
+      'GCC (GNU Toolchain)': ROOM_GCC,
+      'FOSS Educational Programming Languages devroom': ROOM_EDUCATION,
+      'Educational': ROOM_EDUCATION,
       // Do we map the following?
       // 'suse': 'opensuse',
       // Do we automatically to something magic to ignore case difference?
