@@ -5,7 +5,15 @@ const fs = require('fs')
 const { ArgumentParser } = require('argparse');
 
 const reports = require('./reports')({
-  write: console.log
+  write: console.log,
+  h1:     (title) => {console.log(`# ${title}`);},
+  h2:     (title) => {console.log(`## ${title}`);},
+  ul:     (line)  => {console.log(`- ${line}`); },
+  monoStart:()    => {console.log('```'); },
+  monoEnd:()      => {console.log('```'); },
+  mono:   (line)  => {console.log(`\`${line}\``); },
+  stats:  (title, value) => {console.log(`**${title}** : ${value}\n`); },
+  crlf:   ()      => { console.log(''); }
 });
 const parsers = require('./parsers')();
 const processors = require('./processors')();
@@ -35,7 +43,7 @@ for (let year = 2001; year <= 2025; ++year) {
 }
 
 // Accumulative results
-reports.all("Total", totals);
+reports.all("FOSDEM Totals", totals);
 reports.devroomsOverTime(totals, data);
 reports.csv(totals, data);
 reports.speakerTalksInYear(totals, data);

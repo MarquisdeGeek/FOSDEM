@@ -6,19 +6,17 @@ module.exports = function(log) {
   const analysis = require('./analysis')();
 
   function all(title, results) {
-    log.write(title);
-    log.write(''.padEnd(title.length, '='));
+    log.h1(title);
 
     talks(results);
     people(results);
     devrooms(results);
     multipleSpeakers(results);
 
-    log.write('');
+    log.crlf();
   }
 
   function csv(results, yearly) {
-    log.write(``);
     const lineTalks = 1;
     const lineDuration = 2;
     const lineSpeakers = 3;
@@ -44,6 +42,7 @@ module.exports = function(log) {
     });
 
     // Write header
+    log.h1("Yearly breakdown of talks")
     let header = '| Year |';
     let separator = '| ---- |';
     yearly.forEach((yr) => {
@@ -57,28 +56,28 @@ module.exports = function(log) {
     lines.forEach((line) => {
       log.write(`| ${line.map((t) => `${t}`).join(' | ')} |`);
     })
+    log.crlf();
   }
 
   function talks(results) {
     const talks = analysis.talkCount(results);
     const minutes = analysis.durationInMinutes(results);
-    log.write(`Talks: ${talks}`);
+    log.stats(`Talks`, talks);
 
     const duration = moment.duration(minutes, 'minutes');
 
     log.write(`Of duration: ${minutes} mins  (${duration.months()} months ${duration.weeks()} weeks ${duration.days()} days ${duration.hours()} hours and ${duration.minutes()} minutes)`);
     log.write(`   At 8 hours day, 5 days week = ${minutes/(60*8*5)} weeks`);
-    log.write('');
+    log.crlf();
   }
 
 
   function people(results) {
-    log.write(`People listed: ${analysis.speakerCount(results)}`);
-    log.write('');
+    log.stats(`People listed`, analysis.speakerCount(results));
   }
 
   function devrooms(results) {
-    log.write(`devrooms: ${analysis.devroomCount(results)}  (${analysis.devroomTalksTotal(results)})`);
+    log.stats(`devrooms`, `${analysis.devroomCount(results)}  (total ${analysis.devroomTalksTotal(results)})`);
 
     // Order from most to least. It doesn't matter in most cases, but for acculumative results
     // it's amusing, so let's use a few CPU cycles to compute it.
@@ -94,7 +93,7 @@ module.exports = function(log) {
     });
 
     log.write(`   ${output.map((d)=>`'${d}'`).join(', ')}`);
-    log.write('');
+    log.crlf();
   }
 
   function devroomsOverTime(results, yearly) {
@@ -123,22 +122,24 @@ module.exports = function(log) {
 
     roomlist.sort((a, b) => (b.count - a.count));
 
+    log.monoStart();
     roomlist.forEach((devroom) => {
       log.write(devroom.graphic);
     });
+    log.monoEnd();
 
-    log.write('');
+    log.crlf();
   }
 
   function speakerBio(results, yearly, speaker) {
-    log.write(`Bio for ${speaker}`);
+    log.h1(`Bio for ${speaker}`);
 
     let totalYears = 0;
     let totalTalks = 0;
     let devRoomList = {};
     yearly.forEach((yr) => {
       if (yr.peopleTalks[speaker]) {
-        log.write(`${yr.year} : (${yr.peopleTalks[speaker].length}) : ${yr.peopleTalks[speaker].map((t)=>`'${t.title}' (${t.devroom})`).join(', ')}`);
+        log.ul(`${yr.year} : (${yr.peopleTalks[speaker].length}) : ${yr.peopleTalks[speaker].map((t)=>`'${t.title}' (${t.devroom})`).join(', ')}`);
         // Acculumate different dev rooms
         yr.peopleTalks[speaker].forEach((tlk) => {
           devRoomList[tlk.devroom] = true;
@@ -151,17 +152,16 @@ module.exports = function(log) {
 
     let totalDevRooms = Object.keys(devRoomList).length;
 
-    log.write(``);
-    log.write(`FOSDEM Scorecard:`);
-    log.write(`  Spoken at: ${totalYears}`);
-    log.write(`  Talks given: ${totalTalks}`);
-    log.write(`  Devroom diversity: ${totalDevRooms}`);
+    log.crlf();
+    log.h2(`FOSDEM Scorecard`);
+    log.stats(`Spoken at`, totalYears);
+    log.stats(`Talks given`, totalTalks);
+    log.stats(`Devroom diversity`, totalDevRooms);
 
   }
 
   function speakerTalksInYear(results, yearly) {
-    log.write(``);
-    log.write(`Prolific speakers in a given year:`);
+    log.h1(`Prolific speakers in a single year`);
 
     let total = 0;
     let yearlyMax = {};
@@ -177,9 +177,9 @@ module.exports = function(log) {
     });
 
     Object.keys(yearlyMax).sort().reverse().forEach((highest) => {
-      log.write(`${highest} talks:`);
+      log.h2(`${highest} talks`);
       yearlyMax[highest].forEach((spkr) => {
-        log.write(`  ${spkr.who} (${spkr.when})`);
+        log.ul(`  ${spkr.who} (${spkr.when})`);
       });
     });
   }
@@ -202,8 +202,9 @@ module.exports = function(log) {
     for (let count in peopleChart) {
       let speakersWithCountTalks = peopleChart[count].people;
       if (count > 1) {
-        log.write(`${count} talk(s) : ${Object.keys(speakersWithCountTalks).length} people`);
+        log.stats(`${count} talk(s)`, `${Object.keys(speakersWithCountTalks).length} people`);
         log.write(`   ${Object.keys(speakersWithCountTalks).join(', ')} `);
+        log.crlf();
       }
     }
 
