@@ -94,6 +94,7 @@
     <track online_qa="false">BOF - Track A</track>
     <track online_qa="false">BOF - Track B</track>
     <track online_qa="false">BOF - Track C</track>
+    <track online_qa="false">Lightning Lightning Talks</track>
   </tracks>
   <day index="1" date="2025-02-01" start="2025-02-01T09:00:00+01:00" end="2025-02-02T08:59:00+01:00">
     <room name="Janson" slug="janson">
@@ -207,11 +208,7 @@
 - Digital Inclusion: Bridging digital divides through open collaboration and equitable access.
 - Open-Source as a Foundation: Recognizing open technologies as a cornerstone of global cooperation and innovation.&lt;/p&gt;
 &lt;p&gt;Special Announcement by the Digital Public Goods Alliance (DPGA): &lt;/p&gt;
-&lt;p&gt;Formal Recognition of New Flagship DPGs and insights from some other notable DPGs:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The announcement by the DPGA, celebrating TOR Project and Wikipedia for meeting the DPG Standard and contributing significantly to global digital infrastructure.&lt;/li&gt;
-&lt;li&gt;Insights into their alignment with open source principles and the impact of their inclusion as DPGs on advancing global digital equity.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Formal Recognition of New Flagship DPGs and insights from some other notable DPGs and their alignment with open source principles and the impact of their inclusion as DPGs on advancing global digital equity.&lt;/p&gt;
 &lt;p&gt;Call to Action: &lt;/p&gt;
 &lt;p&gt;Engaging the FOSDEM Community:
 A compelling closing appeal to developers, contributors, and organizations in the open-source ecosystem to:
@@ -225,8 +222,8 @@ A compelling closing appeal to developers, contributors, and organizations in th
           <person id="5123">omar</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5687-scaling-open-source-solutions-to-achieve-the-sustainable-development-goals-a-global-call-to-action/slides/96925/DPGs_decoded_6jqHecA.pdf">DPGs decoded</attachment>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5687-scaling-open-source-solutions-to-achieve-the-sustainable-development-goals-a-global-call-to-action/slides/96925/Global_Digital_Compact_-_English_0_xCMJUJ3.pdf">United Nations Global Digital Compact</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5687-scaling-open-source-solutions-to-achieve-the-sustainable-development-goals-a-global-call-to-action/slides/105591/DPGs_decoded_6jqHecA.pdf">DPGs decoded</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5687-scaling-open-source-solutions-to-achieve-the-sustainable-development-goals-a-global-call-to-action/slides/105591/Global_Digital_Compact_-_English_0_xCMJUJ3.pdf">United Nations Global Digital Compact</attachment>
         </attachments>
         <links>
         </links>
@@ -475,7 +472,7 @@ hints for recognizing when this has happened and what to do about it.&lt;/p&gt;<
         <language>en</language>
         <abstract>&lt;p&gt;How can you efficiently allocate tiny (kilo to megabyte sized) objects on petabytes of storage? Write a memory allocator from scratch which uses less than two bits per 4KB.
 This talk focusses on an interesting aspect of &lt;a href="https://code.uplex.de/uplex-varnish/slash"&gt;the SLASH/ storage engines&lt;/a&gt; for &lt;a href="https://varnish-cache.org/"&gt;Varnish-Cache&lt;/a&gt; which uses a simple yet super efficient &lt;a href="https://en.wikipedia.org/wiki/Buddy_memory_allocation"&gt;buddy memory allocator&lt;/a&gt;, a very well known algorithm from the 1960s.
-The primary novelty of this implementation is that it uses a fixed amount of metadata at less than two bits per minimum page size. It also supports prioritized fair waiting allocations and an interactive live view.&lt;/p&gt;</abstract>
+The primary novelty of this implementation is that it uses a fixed amount of metadata at about two bits per minimum page size. It also supports prioritized fair waiting allocations and an interactive live view.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/DGMZC3/feedback/</feedback_url>
         <persons>
@@ -2293,6 +2290,7 @@ This talk showcases different AsciiDoc tools in real-world project documentation
           <person id="1929">Alexander Schwartz</person>
         </persons>
         <attachments>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5779-evolving-real-world-asciidoc-into-a-specification-and-how-it-will-help-the-ecosystem/slides/105590/2025-02-0_nWAZ3O6.pdf">Slides</attachment>
         </attachments>
         <links>
         </links>
@@ -2500,8 +2498,8 @@ We then use a GoHugo templating system to publish it in a polished and user-frie
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/ANQMYV/feedback/</feedback_url>
         <persons>
-          <person id="2453">Nikola Grcevski</person>
           <person id="2990">Annanay Agarwal</person>
+          <person id="4193">Marc Tuduri</person>
         </persons>
         <attachments>
         </attachments>
@@ -2603,9 +2601,9 @@ that already got merged and those that are still being worked on.&lt;/p&gt;</abs
         <start>17:20</start>
         <duration>00:20</duration>
         <room>K.4.201</room>
-        <slug>fosdem-2025-5095-using-trusted-compilation-from-safe-rust-to-mitigate-bugs-in-the-ebpf-verifier</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-5095-using-trusted-compilation-from-safe-rust-to-mitigate-bugs-in-the-ebpf-verifier/</url>
-        <title>Using Trusted Compilation from Safe Rust to Mitigate Bugs in the eBPF Verifier</title>
+        <slug>fosdem-2025-5095-mitigating-bugs-in-the-ebpf-verifier-using-layered-verification</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-5095-mitigating-bugs-in-the-ebpf-verifier-using-layered-verification/</url>
+        <title>Mitigating Bugs in the eBPF Verifier using Layered Verification</title>
         <subtitle></subtitle>
         <track>eBPF</track>
         <type>devroom</type>
@@ -2632,9 +2630,8 @@ overheads and does not require significant changes to the kernel.&lt;/p&gt;
 verifier, taking runtime-overheads, expressiveness, and security into
 consideration. Specifically, we analyze whether past bugs in rustc and the eBPF
 verifier could have been chained together in order to exploit the proposed
-design as a whole. If we find that this is the case, we plan to analyze whether
-there are any fundamental changes (e.g., disabling complex and bug-prone rustc
-features) that would have prevented the exploit(s).&lt;/p&gt;</abstract>
+design as a whole.&lt;/p&gt;
+&lt;p&gt;We find that the fundamental flexibility of the Rust-IR-to-eBPF mapping allows attackers to still exploit the system as a whole. We also investigate whether using the alternative PREVAIL eBPF verifier would prevent a similar attack, but find that there exists a simple construction that allows attackers to combine exploits for the individual verifiers into an exploit that works for the verifiers when chained together.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/P99QYK/feedback/</feedback_url>
         <persons>
@@ -2643,7 +2640,8 @@ features) that would have prevented the exploit(s).&lt;/p&gt;</abstract>
         <attachments>
         </attachments>
         <links>
-          <link href="https://github.com/luisgerhorst/sust">WIP Prototype of a Safe Rust Program that Circumvents the Checks in rustc and the eBPF Verifier</link>
+          <link href="https://github.com/luisgerhorst/sust">Prototype of a safe Rust program that circumvents the checks in rustc and the eBPF verifier</link>
+          <link href="https://github.com/vbpf/ebpf-verifier/discussions/824">Discussion on layered verification using PREVAIL</link>
         </links>
       </event>
       <event guid="cb564452-8130-56d2-84fd-443153991d63" id="5534">
@@ -3114,61 +3112,6 @@ Join us for a compelling narrative that positions Confidential Computing as a ke
         </attachments>
         <links>
           <link href="https://www.swift.org/">Open source link for Swift</link>
-        </links>
-      </event>
-      <event guid="66bfd556-dd26-5a4d-9291-12387a8b97db" id="4163">
-        <date>2025-02-01T15:20:00+01:00</date>
-        <start>15:20</start>
-        <duration>00:10</duration>
-        <room>K.4.401</room>
-        <slug>fosdem-2025-4163-blink-them-to-death-using-embedded-swift</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4163-blink-them-to-death-using-embedded-swift/</url>
-        <title>Blink them to death using Embedded Swift</title>
-        <subtitle></subtitle>
-        <track>Swift</track>
-        <type>devroom</type>
-        <language>en</language>
-        <abstract>&lt;p&gt;Using the recently announced Embedded Swift &lt;a href="https://www.swift.org/blog/embedded-swift-examples/"&gt;Swift.org - Get Started with Embedded Swift on ARM and RISC-V Microcontrollers&lt;/a&gt; we'll program an nRF52840 micro-controller.&lt;/p&gt;
-&lt;p&gt;We’ll start by introducing the world of embedded devices and their specific characteristics. The talk will explain what Embedded Swift is and how it allows us to program these devices using the Swift language. We’ll also cover some of the current limitations of using Swift in this context, particularly when compared to developing on Apple platforms.&lt;/p&gt;
-&lt;p&gt;Starting from the "blinky" example published by Apple—a simple program that makes an LED blink, widely considered the “Hello World” of embedded programming, we'll progressively modify the code, making it more closely resemble idiomatic Swift code, so that any Swift developer can feel at home.&lt;/p&gt;
-&lt;p&gt;In the final part of the presentation, we'll explore more advanced projects implemented using Embedded Swift, talk about the other domains where these concepts can be applied and the future of this budding initiative.&lt;/p&gt;
-&lt;p&gt;Although having a foundational understanding of Swift helps, attendees without prior experience with Swift should still be able to follow along quite easily. No prior embedded systems experience is required.&lt;/p&gt;</abstract>
-        <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/TT7SXD/feedback/</feedback_url>
-        <persons>
-          <person id="3567">Eric Bariaux</person>
-        </persons>
-        <attachments>
-        </attachments>
-        <links>
-          <link href="https://github.com/swiftlang/swift">The Swift Programming Language</link>
-          <link href="https://github.com/nelcea/EmbeddedSwift-nRF52-Examples">Example code of using Embedded Swift on nRF52</link>
-          <link href="https://github.com/ebariaux/slides">Slides from my previous talks on Embedded Swift</link>
-        </links>
-      </event>
-      <event guid="2740c101-cc20-5f4e-a268-5c21304f5c51" id="5284">
-        <date>2025-02-01T15:30:00+01:00</date>
-        <start>15:30</start>
-        <duration>00:10</duration>
-        <room>K.4.401</room>
-        <slug>fosdem-2025-5284-building-a-ferrofluidic-music-visualizer-with-embedded-swift</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-5284-building-a-ferrofluidic-music-visualizer-with-embedded-swift/</url>
-        <title>Building a Ferrofluidic Music Visualizer with Embedded Swift</title>
-        <subtitle></subtitle>
-        <track>Swift</track>
-        <type>devroom</type>
-        <language>en</language>
-        <abstract>&lt;p&gt;Discover the possibilities of Embedded Swift in action with a unique open-source project: a ferrofluidic music visualizer and Bluetooth speaker. This lightning talk will introduce Embedded Swift, explain how it integrates seamlessly with C code, and address common challenges faced when building firmware for embedded systems.&lt;/p&gt;
-&lt;p&gt;The talk will feature a high-level walkthrough of the firmware, including an overview of the DSP logic for generating I2S output to control the device’s electromagnets. The project—fully open-source and hosted in the swift-embedded-examplesGitHub repository—showcases the use of the Raspberry Pi Pico W SDK alongside Swift to create a functional, innovative product.&lt;/p&gt;
-&lt;p&gt;To wrap up, the firmware will be deployed live, culminating in a demo where the device visualizes music with ferrofluid. Perfect for developers curious about leveraging Swift for embedded systems, this session offers a fast-paced glimpse into the creative potential of Embedded Swift.&lt;/p&gt;</abstract>
-        <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/JDGFPK/feedback/</feedback_url>
-        <persons>
-          <person id="4285">Rauhul Varma</person>
-        </persons>
-        <attachments>
-        </attachments>
-        <links>
         </links>
       </event>
       <event guid="d459f8f7-13c3-5e0a-8d97-b5f3b56ba4fb" id="4159">
@@ -4251,6 +4194,7 @@ https://benbucksch.github.io/sasl-passkey/draft-bucksch-sasl-passkey.html&lt;/p&
         <persons>
           <person id="2531">Alexander Sander</person>
           <person id="4309">fukami</person>
+          <person id="5143">Michael Schuster</person>
         </persons>
         <attachments>
         </attachments>
@@ -4276,6 +4220,7 @@ https://benbucksch.github.io/sasl-passkey/draft-bucksch-sasl-passkey.html&lt;/p&
         <persons>
           <person id="2531">Alexander Sander</person>
           <person id="2719">Bradley M. Kuhn</person>
+          <person id="5143">Michael Schuster</person>
         </persons>
         <attachments>
         </attachments>
@@ -5572,6 +5517,7 @@ Believe us, this talk will be a wild ride deep into the Hardware realm of RISC-V
         <persons>
           <person id="2394">Jeremy Bennett</person>
           <person id="2715">Florian 'Flo' Wohlrab</person>
+          <person id="5056">Frédéric Desbiens</person>
         </persons>
         <attachments>
         </attachments>
@@ -6969,9 +6915,9 @@ problems since CCC. &lt;/p&gt;
         <start>18:15</start>
         <duration>00:20</duration>
         <room>H.2214</room>
-        <slug>fosdem-2025-4129-canceled-mobian-upstream-first-and-the-greater-good</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4129-canceled-mobian-upstream-first-and-the-greater-good/</url>
-        <title>CANCELED - Mobian, "upstream first", and the Greater Good</title>
+        <slug>fosdem-2025-4129-cancelled-mobian-upstream-first-and-the-greater-good</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4129-cancelled-mobian-upstream-first-and-the-greater-good/</url>
+        <title>CANCELLED - Mobian, "upstream first", and the Greater Good</title>
         <subtitle></subtitle>
         <track>FOSS on Mobile Devices</track>
         <type>devroom</type>
@@ -7341,15 +7287,15 @@ In this talk we will present the problem we are addressing, why it is important,
         <start>14:30</start>
         <duration>00:15</duration>
         <room>H.2215 (Ferrer)</room>
-        <slug>fosdem-2025-4788-sshproxy-how-to-proxy-ssh</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4788-sshproxy-how-to-proxy-ssh/</url>
-        <title>sshproxy: how to proxy ssh</title>
+        <slug>fosdem-2025-4788-sshproxy-how-to-load-balance-ssh</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4788-sshproxy-how-to-load-balance-ssh/</url>
+        <title>sshproxy: how to load-balance ssh</title>
         <subtitle></subtitle>
         <track>Lightning Talks</track>
         <type>lightningtalk</type>
         <language>en</language>
         <abstract>&lt;p&gt;ssh (secure shell) is a popular protocol used for remote command-line connections and file transfers.&lt;/p&gt;
-&lt;p&gt;sshproxy is more than a simple ssh proxy. It can choose the destination node based on simple or complex rules, such as the user name/group, its previous connections, the number of total connections on the nodes, the total used bandwidth of the nodes… It can be distributed on multiple gateways, with shared states. It can track, log and monitor all the connections.&lt;/p&gt;
+&lt;p&gt;sshproxy is more than a simple ssh proxy/load balancer. It can choose the destination node based on simple or complex rules, such as the user name/group, its previous connections, the number of total connections on the nodes, the total used bandwidth of the nodes… It can be distributed on multiple gateways, with shared states. It can track, log and monitor all the connections.&lt;/p&gt;
 &lt;p&gt;At CEA (French Alternative Energies and Atomic Energy Commission), sshproxy allows users to connect to 4 different supercomputers, with regularly more than 1,000 simultaneous connections.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/YCS9VZ/feedback/</feedback_url>
@@ -7576,6 +7522,31 @@ I will also show what still needs to be done to improve the CJK input system in 
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/TJRJX9/feedback/</feedback_url>
         <persons>
           <person id="2734">Raashi Saxena</person>
+        </persons>
+        <attachments>
+        </attachments>
+        <links>
+        </links>
+      </event>
+      <event guid="45c378a4-779d-5970-a43b-b4d3c5ff1dd7" id="4699">
+        <date>2025-02-01T14:00:00+01:00</date>
+        <start>14:00</start>
+        <duration>01:00</duration>
+        <room>H.3242</room>
+        <slug>fosdem-2025-4699-networkmanager-and-nmstate-community-meetup-bof</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4699-networkmanager-and-nmstate-community-meetup-bof/</url>
+        <title>NetworkManager and Nmstate community meetup  BOF</title>
+        <subtitle></subtitle>
+        <track>BOF - Track B</track>
+        <type>bof</type>
+        <language>en</language>
+        <abstract>&lt;p&gt;Let's meet and talk about NetworkManager and Nmstate!&lt;/p&gt;
+&lt;p&gt;There is no fixed agenda or schedule. Everybody is welcome, and we will have an open discussion about problems, improvements, use cases and ideas for NetworkManager and Nmstate. Bring a topic you'd like to discuss, or just join to meet people.&lt;/p&gt;
+&lt;p&gt;See https://networkmanager.dev/community/ for how reach the community.&lt;/p&gt;</abstract>
+        <description></description>
+        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/AHBS7Q/feedback/</feedback_url>
+        <persons>
+          <person id="2344">Fernando Fernandez Mancera</person>
         </persons>
         <attachments>
         </attachments>
@@ -7972,6 +7943,7 @@ Working GitHub repo: https://github.com/obiwac/freebsd-s0ix&lt;/p&gt;</abstract>
         <attachments>
         </attachments>
         <links>
+          <link href="https://docs.google.com/presentation/d/e/2PACX-1vQUUgMIhsGKuFq5T3xj12Tio_FdRF5Y1XmnHSTPDcGorKYBtvKS-fLDjywDsyUEL_Ou2CCRIGWiaBOy/pub?start=false&amp;loop=false&amp;delayms=60000">Slides</link>
         </links>
       </event>
       <event guid="8d43e850-8088-5ef7-a9e6-ea581d5cdbf8" id="4399">
@@ -8156,31 +8128,6 @@ From this talk, you can learn how the freebsd-audit() source was created and how
           <link href="https://github.com/w3c/webextensions">W3C WebExtensions Community Group</link>
         </links>
       </event>
-      <event guid="45c378a4-779d-5970-a43b-b4d3c5ff1dd7" id="4699">
-        <date>2025-02-01T12:00:00+01:00</date>
-        <start>12:00</start>
-        <duration>01:00</duration>
-        <room>AW1.121</room>
-        <slug>fosdem-2025-4699-networkmanager-and-nmstate-community-meetup-bof</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4699-networkmanager-and-nmstate-community-meetup-bof/</url>
-        <title>NetworkManager and Nmstate community meetup  BOF</title>
-        <subtitle></subtitle>
-        <track>BOF - Track A</track>
-        <type>bof</type>
-        <language>en</language>
-        <abstract>&lt;p&gt;Let's meet and talk about NetworkManager and Nmstate!&lt;/p&gt;
-&lt;p&gt;There is no fixed agenda or schedule. Everybody is welcome, and we will have an open discussion about problems, improvements, use cases and ideas for NetworkManager and Nmstate. Bring a topic you'd like to discuss, or just join to meet people.&lt;/p&gt;
-&lt;p&gt;See https://networkmanager.dev/community/ for how reach the community.&lt;/p&gt;</abstract>
-        <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/AHBS7Q/feedback/</feedback_url>
-        <persons>
-          <person id="2344">Fernando Fernandez Mancera</person>
-        </persons>
-        <attachments>
-        </attachments>
-        <links>
-        </links>
-      </event>
       <event guid="1fdf1de3-7fe8-5555-990e-f9dfdf8a481a" id="6561">
         <date>2025-02-01T13:00:00+01:00</date>
         <start>13:00</start>
@@ -8250,6 +8197,30 @@ From this talk, you can learn how the freebsd-audit() source was created and how
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/FWPPS3/feedback/</feedback_url>
         <persons>
           <person id="3775">Apoorv garg</person>
+        </persons>
+        <attachments>
+        </attachments>
+        <links>
+        </links>
+      </event>
+      <event guid="0eaf83ef-0d38-5118-bf5c-b96771e54194" id="4885">
+        <date>2025-02-01T16:00:00+01:00</date>
+        <start>16:00</start>
+        <duration>01:00</duration>
+        <room>AW1.121</room>
+        <slug>fosdem-2025-4885-openstack-community-meetup-bof</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4885-openstack-community-meetup-bof/</url>
+        <title>OpenStack Community Meetup BOF</title>
+        <subtitle></subtitle>
+        <track>BOF - Track A</track>
+        <type>bof</type>
+        <language>en</language>
+        <abstract>&lt;p&gt;In this Birds of a Feather session, members of the OpenStack Community will have the opportunity to get together to discussion issues ranging from development to operations. It is also a goal of this session to welcome potential contributors and users who might want to learn more about the project and how they can get involved.&lt;/p&gt;
+&lt;p&gt;The OpenStack project is part of the &lt;a href="https://openinfra.dev"&gt;OpenInfra Foundation&lt;/a&gt;. Code for the project is hosted at &lt;a href="https://opendev.org/explore/repos?only_show_relevant=false&amp;q=openstack&amp;sort=recentupdate"&gt;opendev.org&lt;/a&gt;&lt;/p&gt;</abstract>
+        <description></description>
+        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/SKXMGC/feedback/</feedback_url>
+        <persons>
+          <person id="4058">Amy Marrich</person>
         </persons>
         <attachments>
         </attachments>
@@ -8883,6 +8854,7 @@ In this talk, Joana Chicau will introduce the motivations behind the project and
 &lt;p&gt;This framework is constructed in three stages: definition, dissemination, and evaluation of these research outputs [2,3,4], and it is now completed with answers to the Borgman's conundrum challenges for Research Data [3] and for Research Software [6].&lt;/p&gt;
 &lt;p&gt;In this talk we will present our answers to the Borgman's conundrum challenges,  and we will explain the comparison methodologies that we have developed in order to construct and to complete this Open Science framework.&lt;/p&gt;
 &lt;p&gt;It is our understanding that to provide correct and clear answers to the conundrum questions will have, as a consequence, the improvement of Research Software and Research Data sharing and dissemination practices, which, in turn, will enhance trustworthiness, correctness, rigor, reproducibility, reusability and transparency in the research endeavor.&lt;/p&gt;
+&lt;p&gt;This is a joint work with Prof. Tomas Recio, Universidad Antonio de Nebrija, Madrid.&lt;/p&gt;
 &lt;p&gt;This FOSDEM'25 presentation follows and extends our previous talks at FOSDEM:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -8896,7 +8868,7 @@ In this talk, Joana Chicau will introduce the motivations behind the project and
 &lt;/ul&gt;
 &lt;h4&gt;References&lt;/h4&gt;
 &lt;p&gt;[1] Borgman, C.L. The conundrum of sharing research data. J Am Soc Inf Sci Tec 2012, 63, 1059–1078. 
-&lt;a href="hhttps://doi.org/10.1002/asi.22634"&gt;https://doi.org/10.1002/asi.22634&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://doi.org/10.1002/asi.22634"&gt;https://doi.org/10.1002/asi.22634&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] Gomez-Diaz, T.; Recio, T. On the evaluation of research software: the CDUR procedure [version 2; peer review: 2 approved]. F1000Research 2019, 8 1353. 
 &lt;a href="https://doi.org/10.12688/f1000research.19994.2"&gt;https://doi.org/10.12688/f1000research.19994.2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[3] Gomez-Diaz, T.; Recio, T. Research Software vs. Research Data I: Towards a Research Data definition in the Open Science context. [version 2; peer review: 3 approved]. F1000Research 2022, 11 118. 
@@ -10597,8 +10569,10 @@ CA for your organization.&lt;/p&gt;</abstract>
           <person id="4342">Takashi Norimatsu</person>
         </persons>
         <attachments>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5370-using-dpop-to-use-access-tokens-securely-in-your-single-page-applications/slides/105681/DPoP_FOSD_Y7r3bOp.pdf">Slides</attachment>
         </attachments>
         <links>
+          <link href="https://github.com/ahus1/dpop-demo">Demo Code</link>
         </links>
       </event>
       <event guid="8bf77160-3f77-5229-b191-ab8a81860a38" id="4719">
@@ -11385,7 +11359,7 @@ https://github.com/genodelabs&lt;/p&gt;</abstract>
           <person id="4168">Hoang-Hai Dang</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5083-a-formal-specification-of-the-nova-microhypervisor/slides/97257/paper_WDpfx6o.pdf">Technical report of the NOVA formal specification</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5083-a-formal-specification-of-the-nova-microhypervisor/slides/105916/paper_WDpfx6o.pdf">Technical report of the NOVA formal specification</attachment>
         </attachments>
         <links>
           <link href="https://github.com/bedrocksystems/fm-releases/tree/main/nova_interface.2024-04-16">Formal proof development (in Rocq) of the NOVA formal specification (2024-04-16)</link>
@@ -11832,7 +11806,7 @@ Social and Solidarity Economy 💓 Feee Software&lt;/p&gt;
           <person id="4099">Jordi Isidro Llobet</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4959-a-business-intelligence-architecture-for-social-and-solidarity-economy-/slides/97338/bi_for_sse_architecture_LW05K4w.png">A BI architecture schema for Social and Solidarity Economy</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4959-a-business-intelligence-architecture-for-social-and-solidarity-economy-/slides/105998/bi_for_sse_architecture_LW05K4w.png">A BI architecture schema for Social and Solidarity Economy</attachment>
         </attachments>
         <links>
           <link href="https://git.coopdevs.org/coopdevs/bi/bi-provisioning">Git repository for architecture deployment with ansible</link>
@@ -12363,12 +12337,14 @@ Go 1.24 will be released in February 2024, we will be taking a look to all upcom
         <abstract>&lt;p&gt;Did you know that the 'map' type has a whole new implementation as of Go 1.24?
 Known as "Swiss Maps", they run as much as 60% faster and 25% smaller.&lt;/p&gt;
 &lt;p&gt;Originally created in 2016 as a C++ library, Swiss Map uses ingenious bit-manipulation techniques to get more throughput from your CPU.&lt;/p&gt;
-&lt;p&gt;We'll cover:
-* How does it work?
-* New SIMD (single-instruction, multiple-data) support in the compiler.
-* How the Go project benchmarked the new maps.
-* Performance results from real-world applications.
-* Gotchas and caveats.&lt;/p&gt;</abstract>
+&lt;p&gt;We'll cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How does it work?&lt;/li&gt;
+&lt;li&gt;How do benchmarks look for the new maps?&lt;/li&gt;
+&lt;li&gt;New SIMD (single-instruction, multiple-data) support in the compiler.&lt;/li&gt;
+&lt;li&gt;Performance results from real-world applications.&lt;/li&gt;
+&lt;li&gt;Gotchas and caveats.&lt;/li&gt;
+&lt;/ul&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/JDNNCG/feedback/</feedback_url>
         <persons>
@@ -14704,33 +14680,6 @@ Music is composed and recorded by &lt;a href="https://ammd.net"&gt;AMMD&lt;/a&gt
         <attachments>
         </attachments>
         <links>
-        </links>
-      </event>
-      <event guid="7373654a-2cd4-5d54-a6e3-cb545221e3cc" id="4507">
-        <date>2025-02-02T12:00:00+01:00</date>
-        <start>12:00</start>
-        <duration>00:30</duration>
-        <room>Janson</room>
-        <slug>fosdem-2025-4507-infusing-open-source-culture-into-company-dna-a-conversation-with-jack-dorsey-and-manik-surtani-block-s-head-of-open-source</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4507-infusing-open-source-culture-into-company-dna-a-conversation-with-jack-dorsey-and-manik-surtani-block-s-head-of-open-source/</url>
-        <title>Infusing Open Source Culture into Company DNA: A Conversation with Jack Dorsey and Manik Surtani, Block's head of Open Source</title>
-        <subtitle></subtitle>
-        <track>Main Track - Janson</track>
-        <type>maintrack</type>
-        <language>en</language>
-        <abstract>&lt;p&gt;In this session, Block Founder and CEO Jack Dorsey will discuss the strategic importance of open-source technology and why Block has committed to building in the open to advance its mission of economic empowerment. &lt;/p&gt;
-&lt;p&gt;Next, Manik Surtani, Head of Open Source at Block, will share details of Block's Open Source Program Office, involvement in standards bodies, foundations, and giving back to the projects we rely on, and give a high level overview of Block’s open source strategy and direction. He will also discuss some of the open source projects and protocols that Block maintains and contributes to, such as &lt;a href="https://grpc.io"&gt;gRPC&lt;/a&gt;, &lt;a href="https://square.github.io/okhttp/"&gt;OkHttp&lt;/a&gt;, &lt;a href="https://square.github.io/leakcanary/"&gt;LeakCanary&lt;/a&gt;, Anthropic's &lt;a href="https://www.anthropic.com/news/model-context-protocol"&gt;Model Context Protocol&lt;/a&gt;, and much more.&lt;/p&gt;
-&lt;p&gt;The session will also introduce Block's new open source AI agentic framework. Brad Axen, the Lead Engineer on this project, will demonstrate how the agent translates LLM (large language model) outputs into practical steps that reduce time spent on maintenance and repetitive tasks, giving people time back to focus on higher-value, innovative work.&lt;/p&gt;</abstract>
-        <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/N8N7BB/feedback/</feedback_url>
-        <persons>
-          <person id="3686">Jack Dorsey</person>
-          <person id="3769">Manik Surtani</person>
-        </persons>
-        <attachments>
-        </attachments>
-        <links>
-          <link href="https://github.com/block">Github - Block Open Source</link>
         </links>
       </event>
       <event guid="decbac80-f772-5b53-ad8f-9c4f3a879c8e" id="4411">
@@ -17837,8 +17786,8 @@ Find where MySQL is spending time and memory by following this session.&lt;/p&gt
           <person id="4296">Dimitri KRAVTCHUK</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4757-profiling-mysql-from-mysql/slides/97592/cpu_uLZ6gjd.png">This is an example of what can be generated - cpu</attachment>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4757-profiling-mysql-from-mysql/slides/97592/memory_PFEl5b4.png">This is an example of what can be generated - memory</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4757-profiling-mysql-from-mysql/slides/106240/cpu_uLZ6gjd.png">This is an example of what can be generated - cpu</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4757-profiling-mysql-from-mysql/slides/106240/memory_PFEl5b4.png">This is an example of what can be generated - memory</attachment>
         </attachments>
         <links>
           <link href="https://github.com/mysql/mysql-server">MySQL Source Code</link>
@@ -18192,6 +18141,30 @@ In this session, we will see how InnoDB Data recovery can be done in 2025 and we
           <link href="https://github.com/packit/packit">packit git repository</link>
         </links>
       </event>
+      <event guid="d85c0fac-c9f4-5ec4-8123-440ade202cbc" id="5616">
+        <date>2025-02-02T11:30:00+01:00</date>
+        <start>11:30</start>
+        <duration>00:30</duration>
+        <room>H.1302 (Depage)</room>
+        <slug>fosdem-2025-5616-centos-stream-and-the-power-of-sigs-kde-hyperscale-and-beyond</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-5616-centos-stream-and-the-power-of-sigs-kde-hyperscale-and-beyond/</url>
+        <title>CentOS Stream and the Power of SIGs: KDE, Hyperscale, and Beyond</title>
+        <subtitle></subtitle>
+        <track>Distributions</track>
+        <type>devroom</type>
+        <language>en</language>
+        <abstract>&lt;p&gt;CentOS Stream is a unique Linux distribution built by Red Hat Enterprise Linux (RHEL) engineers, serving as a preview of the next minor version of RHEL and a contribution path to RHEL itself. But CentOS Stream is much more than just a stepping stone to RHEL. CentOS Project's Special Interest Groups (SIGs) are expanding the platform in all sorts of interesting ways, including live KDE images, tweaks for hyperscale deployments, immutable CoreOS builds, and so much more.&lt;/p&gt;
+&lt;p&gt;Come and learn how CentOS relates to Fedora, how it's built, how it's tested and released, the new CentOS Stream 10 release (yay!), and how you can get involved!&lt;/p&gt;</abstract>
+        <description></description>
+        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/JJBMYM/feedback/</feedback_url>
+        <persons>
+          <person id="5134">Troy Dawson</person>
+        </persons>
+        <attachments>
+        </attachments>
+        <links>
+        </links>
+      </event>
       <event guid="05c5b664-0ef1-5219-a50b-c41a0c79b28a" id="5472">
         <date>2025-02-02T12:00:00+01:00</date>
         <start>12:00</start>
@@ -18449,11 +18422,11 @@ monitoring enablement progress, and the tasks ahead.&lt;/p&gt;</abstract>
         <track>Distributions</track>
         <type>devroom</type>
         <language>en</language>
-        <abstract>&lt;p&gt;Immutable Linux distributions are transforming how we think about system stability and security. This talk explores four such distributions: Fedora Silverblue, SnowflakeOS, rde, and Vanilla OS. Attendees will learn how immutable operating systems enhance system reliability through atomic updates and rollback capabilities, while understanding the trade-offs in terms of flexibility and customization. We'll examine how each distribution approaches package management, system configuration, and developer workflows. Whether you're a system administrator, developer, or Linux enthusiast, you'll come away understanding which immutable distribution might best suit your needs and how to contribute to these projects through code, documentation, or community support.&lt;/p&gt;</abstract>
+        <abstract>&lt;p&gt;Immutable Linux distributions are transforming how we think about system stability and security. This talk explores four such distributions: Fedora Silverblue, NixOS, rde, and Vanilla OS. Attendees will learn how immutable operating systems enhance system reliability through atomic updates and rollback capabilities, while understanding the trade-offs in terms of flexibility and customization. We'll examine how each distribution approaches package management, system configuration, and developer workflows. Whether you're a system administrator, developer, or Linux enthusiast, you'll come away understanding which immutable distribution might best suit your needs and how to contribute to these projects through code, documentation, or community support.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/UFNPHT/feedback/</feedback_url>
         <persons>
-          <person id="3912">Jorge Gomez</person>
+          <person id="4096">Jorge Gomez</person>
         </persons>
         <attachments>
         </attachments>
@@ -18461,7 +18434,7 @@ monitoring enablement progress, and the tasks ahead.&lt;/p&gt;</abstract>
           <link href="https://fedoraproject.org/atomic-desktops/silverblue/">Fedora Silverblue</link>
           <link href="https://trop.in/rde/">rde</link>
           <link href="https://vanillaos.org/">Vanilla OS</link>
-          <link href="https://snowflakeos.org/">SnowflakeOS</link>
+          <link href="https://nixos.org/">NixOS</link>
         </links>
       </event>
     </room>
@@ -19195,9 +19168,9 @@ For example, static typing and compilation to native code make it intrinsically 
           <person id="3526">Mark Meyer</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4107-gruessaugust-the-functional-test-harness/slides/97411/IMG_2297_M1qe6cf.jpeg">Gruessaugust Board</attachment>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4107-gruessaugust-the-functional-test-harness/slides/97411/movie_RfI4hxg.mp4">Gruessaugust UI Test</attachment>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4107-gruessaugust-the-functional-test-harness/slides/97411/IMG_2653_rah0yC2.mov">Chucky the tape plotter</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4107-gruessaugust-the-functional-test-harness/slides/106071/IMG_2297_M1qe6cf.jpeg">Gruessaugust Board</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4107-gruessaugust-the-functional-test-harness/slides/106071/movie_RfI4hxg.mp4">Gruessaugust UI Test</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4107-gruessaugust-the-functional-test-harness/slides/106071/IMG_2653_rah0yC2.mov">Chucky the tape plotter</attachment>
         </attachments>
         <links>
           <link href="https://codeberg.org/ofosos/gruessaugust/">Gruessaugust Repo</link>
@@ -19215,7 +19188,7 @@ For example, static typing and compilation to native code make it intrinsically 
         <track>Open Hardware and CAD/CAM</track>
         <type>devroom</type>
         <language>en</language>
-        <abstract>&lt;p&gt;VACASK is a novel FOSS analog circuit simulator with a clear separation between device models (i.e. equations) and circuit analyses. It is based on the state of the art KLU sparse matrix library and utilizes the OpenVAF Verilog-A compiler for building its device models from Verilog-A sources. A comparison with other FOSS analog circuit simulators is presented and the roadmap for future development is discussed. A major obstacle in development of VACASK (and every other new simulator) is the implementation of legacy device models that boils down to writing tens of thousands of lines of C code. Legacy device models are used in several older PDKs as well as in models of a large number of discrete electronic components. A novel approach to implementing these device models is proposed: a converter from SPICE3 API-based C code into modern Verilog-A code. The limitations of the approach are presented and the validation of the resulting Verilog-A models is discussed. The performance of the converted models is compared to that of native SPICE3 models. At the present the converted models can be used in VACASK and Ngspice circuit simulators as well as in any other simulator that supports Verilog-A. Some alternative use cases for the converter are proposed and a roadmap for its future development is presented.&lt;/p&gt;</abstract>
+        <abstract>&lt;p&gt;VACASK is a novel FOSS analog circuit simulator with a clear separation between device models (i.e. equations) and circuit analyses. It is based on the state of the art KLU sparse matrix library and utilizes the OpenVAF Verilog-A compiler for building its device models from Verilog-A sources. A comparison with other FOSS analog circuit simulators is presented and the roadmap for future development is discussed. A major obstacle in development of VACASK (and every other new simulator) is the implementation of legacy device models that boils down to writing tens of thousands of lines of C code. Legacy device models are used in several older PDKs as well as in models of a large number of discrete electronic components. A novel approach to implementing these device models is proposed: a converter from SPICE3 API-based C code into modern Verilog-A code. The performance of the converted models is compared to that of native SPICE3 models. At the present the converted models can be used in VACASK and Ngspice circuit simulators as well as in any other simulator that supports Verilog-A. The limitations of the approach are discussed. Some alternative use cases for the converter are proposed and a roadmap for its future development is presented.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/SGRDW8/feedback/</feedback_url>
         <persons>
@@ -19721,6 +19694,7 @@ vendor-independent representations of modern circuit designs.&lt;/p&gt;
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/URTV3K/feedback/</feedback_url>
         <persons>
           <person id="4590">Agustin Benito Bethencourt</person>
+          <person id="5122">Matias Daloia</person>
         </persons>
         <attachments>
         </attachments>
@@ -20497,6 +20471,7 @@ This talk will provide the audience with technical takeaways and practical knowl
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/QXJTL9/feedback/</feedback_url>
         <persons>
           <person id="1925">Nicolas Höning</person>
+          <person id="5138">Vlad</person>
         </persons>
         <attachments>
         </attachments>
@@ -20819,7 +20794,7 @@ See you at the FOSDEM Energy DevRoom!&lt;/p&gt;</abstract>
           <person id="1877">Luiz Villa</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6078-owntech-update-a-demo-talk-of-our-v1-software-suit-and-hardware-advancements/slides/97856/owntech_logo_etQBpxd.png">OwnTech Logo</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6078-owntech-update-a-demo-talk-of-our-v1-software-suit-and-hardware-advancements/slides/106511/owntech_logo_etQBpxd.png">OwnTech Logo</attachment>
         </attachments>
         <links>
           <link href="https://github.com/owntech-foundation">OwnTech Foundation GitHub Repository</link>
@@ -21590,6 +21565,7 @@ See you at the FOSDEM Energy DevRoom!&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/AKWJJE/feedback/</feedback_url>
         <persons>
+          <person id="5099">Filipe Jones Mourao</person>
         </persons>
         <attachments>
         </attachments>
@@ -21601,15 +21577,15 @@ See you at the FOSDEM Energy DevRoom!&lt;/p&gt;</abstract>
         <start>09:50</start>
         <duration>00:10</duration>
         <room>AW1.120</room>
-        <slug>fosdem-2025-6122-the-cra-is-here-now-what-</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-6122-the-cra-is-here-now-what-/</url>
-        <title>The CRA is here. Now what?</title>
+        <slug>fosdem-2025-6122-community-driven-compliance-the-cra-and-the-open-regulatory-compliance-working-group</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-6122-community-driven-compliance-the-cra-and-the-open-regulatory-compliance-working-group/</url>
+        <title>Community-driven compliance: The CRA and the Open Regulatory Compliance Working Group</title>
         <subtitle></subtitle>
         <track>Open Source In The European Legislative Landscape and Beyond</track>
         <type>devroom</type>
         <language>en</language>
         <abstract>&lt;p&gt;On November 20, 2024 the Cyber Resilience Act (CRA) was published in Official Journal of the European Union, starting a three year race for compliance by the global technology industry. This legislation sets new cybersecurity requirements that manufacturers and the open source projects they rely upon must meet.&lt;/p&gt;
-&lt;p&gt;In this presentation, we will provide an overview of these compliance requirements and outline how the Open Regulatory Compliance (ORC) Working Group of the Eclipse Foundation is collaborating in the open with numerous open source foundations, SMEs, and the industry to address them.&lt;/p&gt;</abstract>
+&lt;p&gt;In this presentation, we will explore how the Open Regulatory Compliance (ORC) Working Group of the Eclipse Foundation is collaborating in the open with numerous open source foundations, SMEs, and the industry to address the compliance obligations in the CRA.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/JLCJR3/feedback/</feedback_url>
         <persons>
@@ -21625,9 +21601,9 @@ See you at the FOSDEM Energy DevRoom!&lt;/p&gt;</abstract>
         <start>10:00</start>
         <duration>00:20</duration>
         <room>AW1.120</room>
-        <slug>fosdem-2025-6691-panel-discussion-the-implementation-of-the-cyber-resilience-act-so-far</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-6691-panel-discussion-the-implementation-of-the-cyber-resilience-act-so-far/</url>
-        <title>Panel Discussion: the implementation of the Cyber Resilience Act so far</title>
+        <slug>fosdem-2025-6691-panel-discussion-open-source-and-policy-implementation-lessons-from-the-ai-act-cra-and-dsa</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-6691-panel-discussion-open-source-and-policy-implementation-lessons-from-the-ai-act-cra-and-dsa/</url>
+        <title>Panel Discussion: Open Source and Policy Implementation: Lessons from the AI act, CRA and DSA</title>
         <subtitle></subtitle>
         <track>Open Source In The European Legislative Landscape and Beyond</track>
         <type>devroom</type>
@@ -21636,6 +21612,9 @@ See you at the FOSDEM Energy DevRoom!&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/8FRZNH/feedback/</feedback_url>
         <persons>
+          <person id="1465">Simon Phipps</person>
+          <person id="2505">Tobie Langel</person>
+          <person id="5099">Filipe Jones Mourao</person>
         </persons>
         <attachments>
         </attachments>
@@ -21820,13 +21799,9 @@ See you at the FOSDEM Energy DevRoom!&lt;/p&gt;</abstract>
         <type>devroom</type>
         <language>en</language>
         <abstract>&lt;p&gt;Digital Public Goods (DPGs) are essential for achieving the United Nations Sustainable Development Goals (SDGs). Defined as open-source software, open data, open AI models, and open content that meet privacy, security, and interoperability best practices, DPGs offer governments the tools to build equitable, transparent, and sustainable digital systems.
-This session highlights recent advancements in the DPG Standard—the framework for vetting and recognizing DPGs—alongside collaborative efforts, such as UNICEF’s leadership in scaling DPGs globally. It will also explore successful implementations in Europe through practical examples, including:
-1. Primero (UNICEF): A DPG helping social service workers manage sensitive data related to child protection and gender-based violence.
-2. OpenCRVS: A DPG modernizing civil registration and vital statistics systems to ensure inclusive service delivery.
-3. Drupal: A long-standing DPG powering digital experiences for governments, non-profits, and global organizations like WHO, UNEP, and Gavi.
-4. Mifos X : A DPG providing core banking platform, payment orchestration engine, and mobile banking interfaces to enable the effective delivery of digital financial services.&lt;/p&gt;
+This session highlights recent advancements in the DPG Standard—the framework for vetting and recognizing DPGs—alongside collaborative efforts, such as UNICEF’s leadership in scaling DPGs globally. It will also explore successful implementations in Europe through a practical example from Primero (UNICEF): A DPG helping social service workers manage sensitive data related to child protection and gender-based violence. &lt;/p&gt;
 &lt;p&gt;By focusing on these tools’ adoption and alignment with the DPG Standard, the session will demonstrate how collaboration between organizations and governments is fostering digital sovereignty, interoperability, and public sector innovation in Europe.
-Attendees will gain actionable insights into how the DPG Standard and DPGs like Primero, OpenCRVS, Drupal, and Mifos X are enabling governments to create scalable, transparent, and resilient digital ecosystems.&lt;/p&gt;
+Attendees will gain actionable insights into how the DPG Standard and DPGs like Primero are enabling governments to create scalable, transparent, and resilient digital ecosystems.&lt;/p&gt;
 &lt;p&gt;Proposed Format:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -21839,52 +21814,27 @@ Overview of DPGs, their role in advancing the SDGs, and how the DPG Standard ens
 &lt;/ol&gt;
 &lt;p&gt;--Enhanced privacy requirements.
 --  Ethical AI provisions for transparency and accountability.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;How these updates align with global best practices and support European priorities like the Interoperable Europe Act and the Cyber Resilience Act.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;UNICEF’s Showcase: Primero &lt;/p&gt;
-&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;UNICEF’s Showcase: Primero and their European Implementations&lt;/li&gt;
 &lt;li&gt;Highlighting Primero as a transformative DPG for managing child protection and gender-based violence data.&lt;/li&gt;
 &lt;li&gt;Success stories of Primero’s implementation in various regions, with a focus on its impact and potential in Europe.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Collaborative efforts between UNICEF, governments, and partners to scale Primero and ensure alignment with the DPG Standard.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;European Context: OpenCRVS, Drupal and Mifos&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OpenCRVS :
--- Overview of its implementation in Europe to modernize civil registration systems.
--- Insights into its alignment with EU digital resilience goals and its contributions to inclusive public services.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Drupal :&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;--Highlighting Drupal’s 20+ years of powering ambitious digital experiences for public sector organizations globally.
--- Examples of Drupal’s adoption in European government portals, emphasizing its interoperability and compliance with the DPG Standard.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Mifos X : 
--- They will showcase its role in driving financial inclusion by empowering financial institutions with open-source, cloud-native solutions. 
--- Examples will highlight its adoption in Europe to create interoperable and scalable digital financial ecosystems.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Closing Remarks and Q&amp;amp;A &lt;/p&gt;
+&lt;p&gt;Closing Remarks &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Summarizing the complementary roles of the DPG Standard, DPG implementations, and collaboration efforts in Europe.&lt;/li&gt;
-&lt;li&gt;Open floor for audience questions.&lt;/li&gt;
-&lt;li&gt;Closing call to action: Encouraging policymakers and developers to adopt and contribute to DPGs as part of Europe’s digital transformation journey.&lt;/li&gt;
-&lt;/ul&gt;</abstract>
+&lt;li&gt;Closing call to action: Encouraging policymakers and developers to adopt and contribute to DPGs as part of Europe’s digital transformation journey. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This will be followed up with a fishbowl discussion on how DPGs are being leveraged for Government collaborations.&lt;/p&gt;</abstract>
         <description></description>
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/N9YJZZ/feedback/</feedback_url>
         <persons>
           <person id="3201">Amreen Taneja</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5850-accelerating-digital-transformation-in-europe-the-role-of-digital-public-goods-and-open-source-collaboration/slides/97570/DPGs_decoded_152x0rV.pdf">DPGs Decoded</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5850-accelerating-digital-transformation-in-europe-the-role-of-digital-public-goods-and-open-source-collaboration/slides/106229/DPGs_decoded_152x0rV.pdf">DPGs Decoded</attachment>
         </attachments>
         <links>
         </links>
@@ -22482,30 +22432,6 @@ CERN relies heavily on ceph as building block for many IT, physics analysis &amp
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/BSMGH3/feedback/</feedback_url>
         <persons>
           <person id="3155">Ronny Lam</person>
-        </persons>
-        <attachments>
-        </attachments>
-        <links>
-        </links>
-      </event>
-      <event guid="0eaf83ef-0d38-5118-bf5c-b96771e54194" id="4885">
-        <date>2025-02-02T14:00:00+01:00</date>
-        <start>14:00</start>
-        <duration>01:00</duration>
-        <room>AW1.121</room>
-        <slug>fosdem-2025-4885-openstack-community-meetup-bof</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4885-openstack-community-meetup-bof/</url>
-        <title>OpenStack Community Meetup BOF</title>
-        <subtitle></subtitle>
-        <track>BOF - Track A</track>
-        <type>bof</type>
-        <language>en</language>
-        <abstract>&lt;p&gt;In this Birds of a Feather session, members of the OpenStack Community will have the opportunity to get together to discussion issues ranging from development to operations. It is also a goal of this session to welcome potential contributors and users who might want to learn more about the project and how they can get involved.&lt;/p&gt;
-&lt;p&gt;The OpenStack project is part of the &lt;a href="https://openinfra.dev"&gt;OpenInfra Foundation&lt;/a&gt;. Code for the project is hosted at &lt;a href="https://opendev.org/explore/repos?only_show_relevant=false&amp;q=openstack&amp;sort=recentupdate"&gt;opendev.org&lt;/a&gt;&lt;/p&gt;</abstract>
-        <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/SKXMGC/feedback/</feedback_url>
-        <persons>
-          <person id="4058">Amy Marrich</person>
         </persons>
         <attachments>
         </attachments>
@@ -24050,7 +23976,7 @@ authentication and demonstrated.&lt;/p&gt;</abstract>
         <type>devroom</type>
         <language>en</language>
         <abstract>&lt;p&gt;This presentation explores the novel extension of the PAM conversation through JSON messages, enabling richer communication between PAM applications and &lt;a href="https://sssd.io/"&gt;SSSD&lt;/a&gt;. This extension was driven by the need to support passwordless authentication mechanisms, such as displaying QR codes for external identity verification, within graphical environments like &lt;a href="https://en.wikipedia.org/wiki/GNOME_Display_Manager"&gt;GDM&lt;/a&gt; (GNOME Display Manager).&lt;/p&gt;
-&lt;p&gt;The talk delves into the technical details of this JSON-based interface between SSSD and GDM, providing insights into its &lt;a href="https://github.com/SSSD/sssd.io/pull/79"&gt;design&lt;/a&gt; and implementation. Furthermore, a simple PAM application will be presented as a practical example, serving as a reference for developers seeking to integrate this protocol into their own PAM applications. This opens up a wide range of possibilities for enhanced authentication flows, including:&lt;/p&gt;
+&lt;p&gt;The talk delves into the technical details of this JSON-based interface between SSSD and GDM, providing insights into its &lt;a href="https://github.com/SSSD/sssd.io/pull/79"&gt;design&lt;/a&gt; and implementation. Furthermore, a simple PAM rust client will be presented as a practical example, serving as a reference for developers seeking to integrate this protocol into their own PAM applications. This opens up a wide range of possibilities for enhanced authentication flows, including:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Contextual Information: Sharing user-specific data or authentication challenges.&lt;/li&gt;
 &lt;li&gt;Adaptive Authentication: Dynamically adjusting authentication steps.&lt;/li&gt;
@@ -24422,6 +24348,7 @@ In PostgreSQL, managing schema changes without downtime can be a challenging tas
           <person id="1390">Fernando Oleo Blanco</person>
         </persons>
         <attachments>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4881-updates-on-the-ada-ecosystem/slides/106038/updates-a_cxsmy8g.pdf">Slides</attachment>
         </attachments>
         <links>
         </links>
@@ -24475,7 +24402,7 @@ I show you how I built a working encoder in a few days by leveraging the precise
           <person id="4087">Gautier de Montmollin</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5148-advent-of-compression-writing-a-working-bzip2-encoder-in-ada-from-scratch-in-a-few-days/slides/97412/ada_bzip2_PJAEnus.ppt">Slides</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5148-advent-of-compression-writing-a-working-bzip2-encoder-in-ada-from-scratch-in-a-few-days/slides/106072/ada_bzip2_Qb4R1yi.ppt">Slides</attachment>
         </attachments>
         <links>
           <link href="https://unzip-ada.sourceforge.io/">Zip-Ada</link>
@@ -24507,7 +24434,7 @@ We show you how, including with a live demo of HAC embedded within a "full Ada" 
           <person id="4087">Gautier de Montmollin</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4939-ada-and-mini-ada-a-solution-to-the-two-language-problem/slides/97440/ada_mini_mQDGGEY.ppt">Slides</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4939-ada-and-mini-ada-a-solution-to-the-two-language-problem/slides/106099/ada_mini_y3z0XDg.ppt">Slides</attachment>
         </attachments>
         <links>
           <link href="https://hacadacompiler.sourceforge.io/">HAC Ada Compiler</link>
@@ -24533,6 +24460,7 @@ In this talk, I would like to explain what liquid types, contracts and proving c
           <person id="1390">Fernando Oleo Blanco</person>
         </persons>
         <attachments>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4879-understanding-liquid-types-contracts-and-formal-verification-with-ada-spark/slides/106112/liquid-ty_dasDD3B.pdf">Slides</attachment>
         </attachments>
         <links>
         </links>
@@ -24620,7 +24548,7 @@ released under the GNU GPL v3.0 license.&lt;/p&gt;</abstract>
           <person id="4208">Jan Verschelde</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5155-multiword-arithmetic-and-parallel-computing/slides/97534/fosdem25m_zoJNVRF.pdf">slides</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-5155-multiword-arithmetic-and-parallel-computing/slides/106192/fosdem25m_zoJNVRF.pdf">slides</attachment>
         </attachments>
         <links>
           <link href="https://github.com/janverschelde/PHCpack">URL points to the github repository of the code.</link>
@@ -24694,7 +24622,24 @@ released under the GNU GPL v3.0 license.&lt;/p&gt;</abstract>
           <person id="3343">Arnaud Taffanel</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/97640/test_rGWpu67.jpeg">Test image</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev_1_zg7ruvu.jpg">Speaker graphic - Arnaud Taffanel</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-2_QcoljVb.jpg">Speaker Graphic - Jonas Dech</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-3_p7SCNJa.jpg">Speaker Graphic - Roland Meertens</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-4_91bh943.jpg">Speaker Graphic - Edgar Riba</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-5_2tcvSFd.jpg">Speaker Graphic -Loïc Vigneron</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-6_XxW5dzd.jpg">Speaker Graphic - Ignacio Davila Gallesio, Agustin Alba Chicar</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-7_j0jukl6.jpg">Speaker Graphic - Jan Hanca</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-8_DjPI6eU.jpg">Speaker Graphic - Said Alvarado-Marin</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-9_Xx3OVnu.jpg">Speaker Graphic - Julien Enoch</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-11_Tk8G3Ir.jpg">Speaker Graphic - Pierre Kancir</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-12_0xbL8rW.jpg">Speaker Graphic - Lucas Chiesa</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-12_Ahpxmf7.jpg">Speaker Graphic - Michel Hidalgo</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-14_x3PqydH.jpg">Speaker Graphic - Arne Baeyens</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-15_GngneEA.jpg">Speaker Graphic - Jose Luis Rivero</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-10_bX8Oecu.jpg">Speaker Graphic -  JoseMaria Cañas Plaza, Javier Izquierdo</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-13_sHO5IRt.jpg">Speaker Graphic - Ramon Roche</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-og_p8MvBAz.jpg">Graphic - Robotics and Developer Room 1</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6590-welcome-to-the-robotics-and-simulation-devroom/slides/106298/Fosdev-og_UGcAEU5.jpg">Graphic - Robotics and Developer Room 2</attachment>
         </attachments>
         <links>
         </links>
@@ -25029,7 +24974,7 @@ https://ardupilot.org/&lt;/p&gt;
           <person id="5058">Lucas Chiesa</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6448-whales-use-lighthouses-too-open-source-positioning-for-open-source-robots/slides/97880/volatile-_bPbvKoX.mp3">test</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6448-whales-use-lighthouses-too-open-source-positioning-for-open-source-robots/slides/106532/volatile-_bPbvKoX.mp3">test</attachment>
         </attachments>
         <links>
         </links>
@@ -25319,26 +25264,23 @@ The panel will cover the experience with different quantization techniques in ll
           <link href="https://docs.google.com/presentation/d/1w2I_gnTijOSul0SiIUmJ5GNHwcdfX4OAMEHQIiGt3K4/edit#slide=id.g2d49c4c4d82_1_31">Slides from the talk I conducted before</link>
         </links>
       </event>
-      <event guid="f8035647-64cf-521e-bfcb-b26acb31520f" id="6549">
+      <event guid="056aff98-5c25-5644-bbe6-8cb08adce3e8" id="6761">
         <date>2025-02-02T12:00:00+01:00</date>
         <start>12:00</start>
         <duration>00:05</duration>
         <room>UB2.252A (Lameere)</room>
-        <slug>fosdem-2025-6549-compositional-llms-for-assisted-competitive-coding</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-6549-compositional-llms-for-assisted-competitive-coding/</url>
-        <title>Compositional LLMs for Assisted competitive coding</title>
+        <slug>fosdem-2025-6761-data-prep-kit-open-source-data-engineering-for-llms</slug>
+        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-6761-data-prep-kit-open-source-data-engineering-for-llms/</url>
+        <title>Data Prep Kit: Open Source Data Engineering for LLMs</title>
         <subtitle></subtitle>
         <track>Low-level AI Engineering and Hacking</track>
         <type>devroom</type>
         <language>en</language>
-        <abstract>&lt;p&gt;Meta Hacker Cup (formerly known as Facebook Hacker Cup) is an annual international programming competition hosted and administered by Meta. A lot of diverse participants take part in the competition from different countries worldwide. This year however they did allow the usage of AI within the competition, designed to assess the capabilities of Generative AI in performing autonomous code generation tasks. &lt;/p&gt;
-&lt;p&gt;The competition featured an AI vs human battle i.e Gen AI or AGIs could be utilised within the coding sphere to see how they rank alongside humans.&lt;/p&gt;
-&lt;p&gt;We developed a model designed for fully autonomous coding. It works by combining outputs from multiple LLMs to solve coding problems without human input. The model breaks tasks into smaller parts, assigns them to the best-suited LLM, and refines the outputs. It evaluates solutions through automated testing and improves by learning from feedback. The system uses a voting mechanism to choose the best output and runs checks for errors and performance issues. Test cases provided by the problems in hacker cup are also generated based on the problem statement and are made to run against the generated code to check for the accuracy.&lt;/p&gt;
-&lt;p&gt;This model was a top-10  finalist in Meta's Hacker Cup AI track. It demonstrates a new way of using LLMs to perform end-to-end coding tasks. We will share insights from building and testing the model, including its strengths and challenges. We believe that this can be highly useful for students who don't have the privilege of learning competitive coding by paying high fees to institutions or online learning bootcamps but want an environment and a teacher (in form of AI) which enables them to think more on the logic behind the problems fostering more creativity and less sticking and adhering to guidelines which is a norm still practiced in academia.&lt;/p&gt;</abstract>
+        <abstract>&lt;p&gt;Introducing &lt;a href="https://github.com/IBM/data-prep-kit"&gt;Data Prep Kit&lt;/a&gt; (DPK) - an open source data engineering framework for LLMs. DPK was developed internally by IBM to assist with the development of its open source &lt;a href="https://huggingface.co/ibm-granite"&gt;Granite family&lt;/a&gt; of LLMs and released in 2024. DPK is built on &lt;a href="https://www.kubeflow.org/docs/components/pipelines/"&gt;Kubeflow pipelines&lt;/a&gt;, running on scalable compute ranging from a developer's laptop to massive clusters. In addition Kubeflow pipelines allows the community to collaborate on common LLM data engineering workflows problems, such as determining licensing state of the data and determining the state of its GDPR compliance.&lt;/p&gt;</abstract>
         <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/PADEWB/feedback/</feedback_url>
+        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/DSJKQC/feedback/</feedback_url>
         <persons>
-          <person id="4905">Ritwik Agarwal</person>
+          <person id="5141">Joe Olson</person>
         </persons>
         <attachments>
         </attachments>
@@ -25802,7 +25744,7 @@ In this talk we'll take you end-to-end through the process of designing custom A
         <language>en</language>
         <abstract>&lt;p&gt;We described our idea of a guest virtual machine driven firmware update mechanism for confidential cloud deployments (where tenant and cloud providers are two different entities) in our KVM Forum talk 2024 titled “Empowering confidential VMs in the cloud to use their own firmware upon instantiation.” [1] . We already demoed a prototype in action at KVM Forum [4]. In this talk, we will briefly describe our motivation for this work for the benefit of those not present in the KVM Forum. Then, we will argue how signed UKIs can be a simple, easier and guest OS agnostic means of deploying the trusted and measured firmware images for tenants in the cloud. We will also describe how UKIs can trigger an update of the firmware using our proposed simple hypervisor interface. Discussions around implementing this have already started within the systemd community [2][5]. We will describe some of the details around our design decisions. We will also seek inputs from the community on implementing the hypervisor specific support needed in UKI for interacting with the hypervisor by proposing some initial ideas.&lt;/p&gt;
 &lt;p&gt;This talk is mostly UKI/systemd focussed. We will not describe QEMU specific details. For QEMU details, those interested may please refer to our 2024 KVM Forum talk and other future presentations at the KVM Forum or other conferences.&lt;/p&gt;
-&lt;p&gt;This work is being driven within Red Hat in collaboration with AWS. Other members besides the presenter Ani Sinha(Red Hat) [3] are:  Alex Graf (AWS), Vitaly Kuznetsov(Red Hat), Paolo Bonzini(Red Hat), Gerd Hoffmann (Red Hat), Herald Hoyer (Matter Labs).&lt;/p&gt;
+&lt;p&gt;This work is being driven within Red Hat in collaboration with AWS. Other members besides the presenter Ani Sinha(Red Hat) [3] are:  Alex Graf (AWS), Vitaly Kuznetsov(Red Hat), Paolo Bonzini(Red Hat), Gerd Hoffmann (Red Hat), Harald Hoyer (Matter Labs).&lt;/p&gt;
 &lt;p&gt;References:
 1. https://pretalx.com/kvm-forum-2024/talk/HJSKRQ/
 2. https://github.com/systemd/systemd/pull/35091
@@ -26558,8 +26500,8 @@ This is a multi chassis system, that used to fit in a standard 19" rack.&lt;/p&g
           <person id="3526">Mark Meyer</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4656-a-pid-control-system-based-on-the-mos-6502/slides/97700/IMG_2305_8twCpW2.jpeg">Chassis (1)</attachment>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4656-a-pid-control-system-based-on-the-mos-6502/slides/97700/IMG_2306_UP0CdR3.jpeg">Chassis (2)</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4656-a-pid-control-system-based-on-the-mos-6502/slides/106357/IMG_2305_8twCpW2.jpeg">Chassis (1)</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-4656-a-pid-control-system-based-on-the-mos-6502/slides/106357/IMG_2306_UP0CdR3.jpeg">Chassis (2)</attachment>
         </attachments>
         <links>
         </links>
@@ -28083,8 +28025,8 @@ Sporting a brand-new user interface, and offering new features such as UTF-8 cha
           <person id="5029">Angeles Mora</person>
         </persons>
         <attachments>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6640-mastering-observability-with-signoz-open-source-alternative-for-metrics-logs-and-traces/slides/97731/signoz_kN20kYM.png">signoz</attachment>
-          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6640-mastering-observability-with-signoz-open-source-alternative-for-metrics-logs-and-traces/slides/97731/nest2_d3ytm7Z.png">traces-exemple</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6640-mastering-observability-with-signoz-open-source-alternative-for-metrics-logs-and-traces/slides/106391/signoz_kN20kYM.png">signoz</attachment>
+          <attachment type="slides" href="https://fosdem.org/2025/events/attachments/fosdem-2025-6640-mastering-observability-with-signoz-open-source-alternative-for-metrics-logs-and-traces/slides/106391/nest2_d3ytm7Z.png">traces-exemple</attachment>
         </attachments>
         <links>
         </links>
@@ -28722,8 +28664,8 @@ The combination of serialization, preservation of arbitrary memory ranges and gu
         </links>
       </event>
       <event guid="3e3729b3-c0d7-5588-827b-51fc80a776ba" id="6245">
-        <date>2025-02-02T11:00:00+01:00</date>
-        <start>11:00</start>
+        <date>2025-02-02T11:30:00+01:00</date>
+        <start>11:30</start>
         <duration>00:30</duration>
         <room>UD2.208 (Decroly)</room>
         <slug>fosdem-2025-6245-waste-free-per-cpu-userspace-memory-allocation</slug>
@@ -28739,29 +28681,6 @@ The combination of serialization, preservation of arbitrary memory ranges and gu
         <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/A9HJ9G/feedback/</feedback_url>
         <persons>
           <person id="4757">Mathieu Desnoyers</person>
-        </persons>
-        <attachments>
-        </attachments>
-        <links>
-        </links>
-      </event>
-      <event guid="43c723a5-3ee5-505a-9e2f-b0a15f5a76d0" id="4860">
-        <date>2025-02-02T11:30:00+01:00</date>
-        <start>11:30</start>
-        <duration>00:30</duration>
-        <room>UD2.208 (Decroly)</room>
-        <slug>fosdem-2025-4860-shrinking-memmap</slug>
-        <url>https://fosdem.org/2025/schedule/event/fosdem-2025-4860-shrinking-memmap/</url>
-        <title>Shrinking Memmap</title>
-        <subtitle></subtitle>
-        <track>Kernel</track>
-        <type>devroom</type>
-        <language>en</language>
-        <abstract>&lt;p&gt;The kernel takes 1.6% of your RAM for a data structure called memmap. Much of the information in it is redundant and can be expressed more efficiently. The problem is that much of the kernel relies on the current format of memmap. Join Matthew for a high-level overview of the multi-year project to reduce the size of memmap. No prior experience of kernel programming is needed, but understanding C data structures will be an advantage.&lt;/p&gt;</abstract>
-        <description></description>
-        <feedback_url>https://pretalx.fosdem.org/fosdem-2025/talk/NBAMR9/feedback/</feedback_url>
-        <persons>
-          <person id="4044">Matthew Wilcox</person>
         </persons>
         <attachments>
         </attachments>
