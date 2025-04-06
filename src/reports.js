@@ -5,9 +5,11 @@ module.exports = function(log) {
   const moment = require('moment');
   const analysis = require('./analysis')();
 
-  function all(title, results) {
-    log.h1(title);
+  function allTotals(results) {
+    // Write header
+    log.h1("FOSDEM Totals");
 
+    // Write table
     talks(results);
     people(results);
     devrooms(results);
@@ -16,7 +18,7 @@ module.exports = function(log) {
     log.crlf();
   }
 
-  function csv(results, yearly) {
+  function yearlyBreakdown(results, yearly) {
     const lineTalks = 1;
     const lineDuration = 2;
     const lineSpeakers = 3;
@@ -211,8 +213,8 @@ module.exports = function(log) {
   }
 
   return {
-    all,
-    csv,
+    allTotals,
+    yearlyBreakdown,
     devroomsOverTime,
     speakerBio,
     speakerTalksInYear

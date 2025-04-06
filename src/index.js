@@ -37,15 +37,12 @@ for (let year = 2001; year <= 2025; ++year) {
 
   // Combine with running totals
   totals = processors.mergeResultsSet(totals, data[year]);
-
-  // Print it
-  //reports.all(`For ${year}...`, data[year]);
 }
 
 // Accumulative results
-reports.all("FOSDEM Totals", totals);
+reports.allTotals(totals);
 reports.devroomsOverTime(totals, data);
-reports.csv(totals, data);
+reports.yearlyBreakdown(totals, data);
 reports.speakerTalksInYear(totals, data);
 
 // e.g.
