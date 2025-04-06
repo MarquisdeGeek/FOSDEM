@@ -47,6 +47,21 @@ module.exports = function() {
   const ROOM_GCC = "GCC devroom";
   const ROOM_EDUCATION = "FOSS Educational Programming Languages";
   const ROOM_POSTGRESQL = 'PostgreSQL';
+  const ROOM_LEGISTLATIVE = 'Legislative';
+  const ROOM_CONFIDENTIAL_COMPUTING = 'Confidential Computing';
+  const ROOM_RAILWAYS_OPEN_TRANSPORT = 'Railways and Open Transport';
+  const ROOM_DNS = 'DNS';
+  const ROOM_VLSI_AND_FPGA = 'Libre-SOC, FPGA and VLSI devroom';
+  const ROOM_PERL_AND_RAKU = 'Perl and Raku Programming';
+  const ROOM_SBOM = 'Software Bill of Materials devroom';
+  const ROOM_OPEN_HARDWARE = 'CAD and Open Hardware';
+  const ROOM_PYTHON = 'Python';
+  const ROOM_MICROKERNELS = 'Microkernel';
+  const ROOM_OPEN_RESEARCH = 'Open Research Tools and Technologies';
+  const ROOM_OPEN_MEDIA = 'Open Media';
+  const ROOM_JAVASCRIPT = 'JavaScript';
+  const ROOM_RUST = 'Rust';
+  const ROOM_RUBY = 'Ruby';
   //
   const ROOM_UNKNOWN = "unknown";
 
@@ -63,17 +78,24 @@ module.exports = function() {
       'Decentralised Internet and Privacy': ROOM_DECENTRALISED,
       'Decentralised Internet': ROOM_DECENTRALISED,
       'Decentralized Internet and Privacy': ROOM_DECENTRALISED,
-      'python': 'Python',
+      'python': ROOM_PYTHON,
+      'Python Devroom devroom': ROOM_PYTHON,
       'HPC and computational science': ROOM_HPC,
+      'HPC, Big Data & Data Science devroom': ROOM_HPC,
+      'HPC, Big Data & Data Science': ROOM_HPC,
       'HPC, Big Data and Data Science': ROOM_HPC,
       'HPC, Big Data, and Data Science': ROOM_HPC,
       'Backup and Disaster Recovery': ROOM_BACKUP_RECOVERY,
       'Backup and Recovery': ROOM_BACKUP_RECOVERY,
       'Minimalistic, Experimental and Emerging Languages': ROOM_MINIMALIST_LANGUAGES,
       'Minimalistic Languages': ROOM_MINIMALIST_LANGUAGES,
-      'research': 'Open Research Tools and Technologies',
-      'Testing and Automation': ROOM_TESTING,
+      'research': ROOM_OPEN_RESEARCH,
+      'Open Research Tools and Technology': ROOM_OPEN_RESEARCH,
+      'Open Research devroom': ROOM_OPEN_RESEARCH,
+      'Open Research': ROOM_OPEN_RESEARCH,
       'Testing and automation': ROOM_TESTING,
+      'Testing and Continuous delivery devroom': ROOM_TESTING,
+      'Testing and Continuous Delivery': ROOM_TESTING,
       'Open source search': ROOM_SEARCH,
       'Search': ROOM_SEARCH,
       'Containers and Process Isolation': ROOM_CONTAINERS,
@@ -113,7 +135,8 @@ module.exports = function() {
       'Community Development and Marketing': ROOM_COMMUNITY,
       'Community': ROOM_COMMUNITY,
       'Community devroom': ROOM_COMMUNITY,
-      'ruby': 'Ruby',
+      'ruby': ROOM_RUBY,
+      'Ruby devroom': ROOM_RUBY,
       'ooo': 'Apache OpenOffice',
       'openoffice': 'Apache OpenOffice',
       'postgresql_devroom': ROOM_POSTGRESQL,
@@ -152,7 +175,8 @@ module.exports = function() {
       'Virtualization and Cloud Infrastructure': ROOM_VIRTUALISATION,
       'LLVM': ROOM_LLVM,
       'LLVM Toolchain': ROOM_LLVM,
-      'Javascript': 'JavaScript',
+      'Javascript': ROOM_JAVASCRIPT,
+      'JavaScript devroom': ROOM_JAVASCRIPT,
       'distributions': 'Distributions',
       'Wine': 'Wine Project',
       'Infra Management': ROOM_INFRA_MANAGEMENT,
@@ -189,7 +213,9 @@ module.exports = function() {
       'Lightning Talks': ROOM_LIGHTNING_TALKS,
       'Lightning Talk': ROOM_LIGHTNING_TALKS,
       'Matrix': ROOM_MATRIX,
-      'Matrix.org Foundation &amp; Community': ROOM_MATRIX,
+      'Matrix.org Foundation & Community': ROOM_MATRIX,
+      'Matrix.org Foundation and Community': ROOM_MATRIX,
+      'Matrix devroom': ROOM_MATRIX,
       'Open document editors': ROOM_OPEN_DOCUMENT_EDITORS,
       'Open Document editors': ROOM_OPEN_DOCUMENT_EDITORS,
       'Open Document Editors': ROOM_OPEN_DOCUMENT_EDITORS,
@@ -198,6 +224,28 @@ module.exports = function() {
       'GCC (GNU Toolchain)': ROOM_GCC,
       'FOSS Educational Programming Languages devroom': ROOM_EDUCATION,
       'Educational': ROOM_EDUCATION,
+      'Open Source In The European Legislative Landscape devroom': ROOM_LEGISTLATIVE,
+      'Open Source In The European Legislative Landscape and Beyond': ROOM_LEGISTLATIVE,
+      'Confidential Computing devroom': ROOM_CONFIDENTIAL_COMPUTING,
+      'Railways and Open Transport devroom': ROOM_RAILWAYS_OPEN_TRANSPORT,
+      'DNS devroom': ROOM_DNS,
+      'Libre-Open VLSI and FPGA': ROOM_VLSI_AND_FPGA,
+      'Perl and Raku devroom': ROOM_PERL_AND_RAKU,
+      'Software Bill of Materials (SBOM)': ROOM_SBOM,
+      'Software Bill of Materials': ROOM_SBOM,
+      'CAD and Open Hardware': ROOM_OPEN_HARDWARE,
+      'Open Hardware and CAD/CAM devroom': ROOM_OPEN_HARDWARE,
+      'Open Hardware and CAD/CAM': ROOM_OPEN_HARDWARE,
+      'Microkernel and Component-based OS': ROOM_MICROKERNELS,
+      'Microkernel OS Devroom': ROOM_MICROKERNELS,
+      'Microkernel-based operating systems': ROOM_MICROKERNELS,
+      'Open Media': ROOM_OPEN_MEDIA,
+      'Open media': ROOM_OPEN_MEDIA,
+      'Open Media devroom': ROOM_OPEN_MEDIA,
+      'Rust devroom': ROOM_RUST,
+      
+      //
+    
       // Do we map the following?
       // 'suse': 'opensuse',
       // Do we automatically to something magic to ignore case difference?
