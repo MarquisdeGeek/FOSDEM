@@ -20,12 +20,15 @@ const processors = require('./processors')();
 
 
 const parser = new ArgumentParser({
-  description: 'Argparse example'
+  description: 'FOSDEM stats'
 });
- 
-parser.add_argument('-s', '--speaker');
-const parsedArgs = parser.parse_args();
 
+parser.add_argument('-s', '--speaker');
+parser.add_argument('-r', '--reports', {help: 't: totals, d: devrooms, y: yearly, s: speakers, i:individual speaker (from -s). Defaults to all' });
+
+const parsedArgs = parser.parse_args();
+const reportList = parsedArgs.reports || "tdysi"
+const speakerReport = parsedArgs.speaker || 'Steven Goodwin'
 
 let totals = processors.createResultsSet();
 
@@ -40,11 +43,11 @@ for (let year = 2001; year <= 2025; ++year) {
 }
 
 // Accumulative results
-reports.allTotals(totals);
-reports.devroomsOverTime(totals, data);
-reports.yearlyBreakdown(totals, data);
-reports.speakerTalksInYear(totals, data);
+reportList.includes('t') && reports.allTotals(totals);
+reportList.includes('d') && reports.devroomsOverTime(totals, data);
+reportList.includes('y') && reports.yearlyBreakdown(totals, data);
+reportList.includes('s') && reports.speakerTalksInYear(totals, data);
 
 // e.g.
-reports.speakerBio(totals, data, parsedArgs.speaker || 'Steven Goodwin');
+reportList.includes('i') && reports.speakerBio(totals, data, speakerReport);
 
