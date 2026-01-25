@@ -62,6 +62,12 @@ module.exports = function() {
   const ROOM_JAVASCRIPT = 'JavaScript';
   const ROOM_RUST = 'Rust';
   const ROOM_RUBY = 'Ruby';
+  const ROOM_EMULATOR = 'Emulator Development';
+  const ROOM_RETROCOMPUTING = 'Retrocomputing';
+  const ROOM_GO = 'Go';
+  const ROOM_DECLARATIVE_AND_MINIMALISTIC = 'Declarative and Minimalistic';
+  const ROOM_LEGAL_AND_POLICY = 'Legal and Policy Issues';
+  const ROOM_GAMING = 'Open Source Game Development';
   //
   const ROOM_UNKNOWN = "unknown";
 
@@ -107,6 +113,7 @@ module.exports = function() {
       'Embedded and mobile': ROOM_EMBEDDED,
       'Embedded, Mobile and Automotive': ROOM_EMBEDDED,
       'Embedded, mobile and automotive': ROOM_EMBEDDED,
+      'Embedded, Mobile and Automotive devroom': ROOM_EMBEDDED,
       'Embedded Devroom': ROOM_EMBEDDED,
       'libreoffice_devroom': ROOM_LIBRE_OFFICE,
       'LibreOffice Devroom': ROOM_LIBRE_OFFICE,
@@ -170,6 +177,7 @@ module.exports = function() {
       'perl': ROOM_PERL,
       'Perl': ROOM_PERL,
       'Perl Devroom': ROOM_PERL,
+      'Perl and Raku Programming': ROOM_PERL,
       'Virtualisation': ROOM_VIRTUALISATION,
       'Virtualization and Cloud Devroom': ROOM_VIRTUALISATION,
       'Virtualization and Cloud Infrastructure': ROOM_VIRTUALISATION,
@@ -243,7 +251,18 @@ module.exports = function() {
       'Open media': ROOM_OPEN_MEDIA,
       'Open Media devroom': ROOM_OPEN_MEDIA,
       'Rust devroom': ROOM_RUST,
-      
+      'Emulator devroom': ROOM_EMULATOR,
+      'Retrocomputing devroom': ROOM_RETROCOMPUTING,
+      'Go devroom': ROOM_GO,
+      'Minimalistic Languages': ROOM_DECLARATIVE_AND_MINIMALISTIC,
+      'Declarative and Minimalistic Computing devroom': ROOM_DECLARATIVE_AND_MINIMALISTIC,
+      'Declarative and Minimalistic Computing': ROOM_DECLARATIVE_AND_MINIMALISTIC,
+      'Legal and Policy issues': ROOM_LEGAL_AND_POLICY,
+      'Legal and Policy Issues devroom': ROOM_LEGAL_AND_POLICY,
+      'Legal and Policy': ROOM_LEGAL_AND_POLICY,
+      'Legal & Policy': ROOM_LEGAL_AND_POLICY,
+      'GCC (GNU Toolchain)': ROOM_GCC,
+      'Gaming and VR devroom': ROOM_GAMING,
       //
     
       // Do we map the following?
