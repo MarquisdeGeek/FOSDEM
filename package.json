@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "argparse": "^2.0.1",
-    "fast-xml-parser": "^5.3.6",
+    "fast-xml-parser": "^5.3.8",
     "moment": "^2.24.0"
   },
   "devDependencies": {
