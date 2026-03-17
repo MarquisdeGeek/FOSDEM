@@ -2,6 +2,7 @@
 'use strict';
 
 module.exports = function() {
+  // These are the canonical names, IMO
   const ROOM_CROSS_DESKTOP = 'Cross desktop';
   const ROOM_MOZILLA = 'Mozilla';
   const ROOM_JABBER = 'Jabber';
@@ -68,6 +69,18 @@ module.exports = function() {
   const ROOM_DECLARATIVE_AND_MINIMALISTIC = 'Declarative and Minimalistic';
   const ROOM_LEGAL_AND_POLICY = 'Legal and Policy Issues';
   const ROOM_GAMING = 'Open Source Game Development';
+  const ROOM_FOSS_ON_MOBILE = 'FOSS on Mobile';
+  const ROOM_WEB_PERFORMANCE = 'Web Performance';
+  const ROOM_NIX = 'Nix and NixOS';
+  const ROOM_KERNEL = 'Kernel';
+  const ROOM_SBOMS = 'SBOMS and supply chains';
+  const ROOM_GRAPH_PROCESSING = 'Graph Processing';
+  const ROOM_RISC_V = 'RISC-V';
+  const ROOM_OPEN_SOURCE_FIRMWARE = 'Open Source Firmware, BMC and Bootloader';
+  const ROOM_TOOL_THE_DOCS = 'Tool the Docs';
+  const ROOM_EDA = 'Electronic Design Automation (EDA)';
+  const ROOM_SOFTWARE_COMPOSITION = 'Software Composition';
+  const ROOM_PUBLIC_CODE = 'Public Code';
   //
   const ROOM_UNKNOWN = "unknown";
 
@@ -79,6 +92,7 @@ module.exports = function() {
       'crossdistro': 'CrossDistribution Devroom',
       'mozilla': ROOM_MOZILLA,
       'Mozilla Devroom': ROOM_MOZILLA,
+      'Mozilla devroom': ROOM_MOZILLA,
       'jabber': ROOM_JABBER,
       'Jabber and XMPP Devroom': ROOM_JABBER,
       'Decentralised Internet and Privacy': ROOM_DECENTRALISED,
@@ -95,6 +109,7 @@ module.exports = function() {
       'Backup and Recovery': ROOM_BACKUP_RECOVERY,
       'Minimalistic, Experimental and Emerging Languages': ROOM_MINIMALIST_LANGUAGES,
       'Minimalistic Languages': ROOM_MINIMALIST_LANGUAGES,
+      'Declarative and Minimalistic': ROOM_MINIMALIST_LANGUAGES,
       'research': ROOM_OPEN_RESEARCH,
       'Open Research Tools and Technology': ROOM_OPEN_RESEARCH,
       'Open Research devroom': ROOM_OPEN_RESEARCH,
@@ -136,6 +151,7 @@ module.exports = function() {
       'Java': ROOM_JAVA,
       'freejava': ROOM_JAVA,
       'Free Java Devroom': ROOM_JAVA,
+      'Free Java devroom': ROOM_JAVA,
       'mono': ROOM_MONO,
       'Mono Devroom': ROOM_MONO,
       'Community Track': ROOM_COMMUNITY,
@@ -164,6 +180,7 @@ module.exports = function() {
       'MariaDB Server': ROOM_MARIADB,
       'MariaDB, MySQL and Friends': ROOM_MARIADB,
       'distributions': 'Distributions',
+      'Distributions devroom': 'Distributions',
       'nosql': 'NoSQL',
       'gnustep': ROOM_GNU_STEP,
       'GNUstep': ROOM_GNU_STEP,
@@ -203,6 +220,8 @@ module.exports = function() {
       'Game Development': ROOM_GAME_DEVELOPMENT,
       'Open Source Game Development Devroom': ROOM_GAME_DEVELOPMENT,
       'Software defined radio': ROOM_SDR,
+      'Software Defined Radio(SDR)/Digital Signal Processing(DSP)': ROOM_SDR,
+      'Radio': ROOM_SDR,
       'Free Software Radio': ROOM_SDR,
       'xorg': ROOM_XORG,
       'X.Org': ROOM_XORG,
@@ -217,6 +236,7 @@ module.exports = function() {
       'Real Time Communications': ROOM_REAL_TIME_COMMUNICATIONS,
       'Communications': ROOM_REAL_TIME_COMMUNICATIONS,
       'Real Time Communications (RTC)': ROOM_REAL_TIME_COMMUNICATIONS,
+      'Real Time Communications (RTC) devroom': ROOM_REAL_TIME_COMMUNICATIONS,
       'Lightning talks': ROOM_LIGHTNING_TALKS,
       'Lightning Talks': ROOM_LIGHTNING_TALKS,
       'Lightning Talk': ROOM_LIGHTNING_TALKS,
@@ -263,6 +283,21 @@ module.exports = function() {
       'Legal & Policy': ROOM_LEGAL_AND_POLICY,
       'GCC (GNU Toolchain)': ROOM_GCC,
       'Gaming and VR devroom': ROOM_GAMING,
+      'FOSS on Mobile Devices devroom': ROOM_FOSS_ON_MOBILE,
+      'Open Mobile Linux Devroom': ROOM_FOSS_ON_MOBILE,
+      'Web Performance devroom': ROOM_WEB_PERFORMANCE,
+      'Nix and NixOS devroom': ROOM_NIX,
+      'Kernel devroom': ROOM_KERNEL,
+      'Software Bill of Materials devroom': ROOM_SBOMS,
+      'Graph processing': ROOM_GRAPH_PROCESSING,
+      'RISC-V devroom': ROOM_RISC_V,
+      'Open Source Firmware, BMC and Bootloader devroom': ROOM_OPEN_SOURCE_FIRMWARE,
+      'Tool The Docs': ROOM_TOOL_THE_DOCS,
+      'Tool the docs devroom': ROOM_TOOL_THE_DOCS,
+      'EDA': ROOM_EDA,
+      'Software composition and dependency management': ROOM_SOFTWARE_COMPOSITION,
+      'Public Code and Digital Public Goods devroom': ROOM_PUBLIC_CODE,
+
       //
     
       // Do we map the following?

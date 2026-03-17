@@ -10,9 +10,9 @@ Of duration: 329220 mins  (7 months 2 weeks 14 days 15 hours and 0 minutes)
 
 **People listed** : 7346
 
-**devrooms** : 257  (total 10753)
+**devrooms** : 238  (total 10753)
 
-   'Embedded (360)', 'Mozilla (313)', 'Free Java (262)', 'MySQL and Friends (238)', 'HPC and computational science (230)', 'Python (213)', 'Distributions (204)', 'Open Research Tools and Technologies (167)', 'Community Development (167)', 'Go (167)', 'X.Org/Graphics (162)', 'Containers (159)', 'Legal and Policy Issues (156)', 'PostgreSQL (155)', 'Testing and Automation (154)', 'Open Document Editors (151)', 'Open Media (150)', 'Ada (147)', 'Geospatial (146)', 'Virtualisation and IaaS (143)', 'Real-time Communications (141)', 'Open Source Design (135)', 'BSD (133)', 'LibreOffice (133)', 'Software Defined Radio (129)', 'Security (125)', 'Perl Programming Languages (123)', 'JavaScript (114)', 'LLVM toolchain (114)', 'Declarative and Minimalistic (109)', 'Software Defined Storage (103)', 'Rust (100)', 'Cross desktop (94)', 'Decentralised Internet (89)', 'Internet of Things (87)', 'CAD and Open Hardware (85)', 'Graph Processing (82)', 'Virtualization and IaaS (82)', 'Retrocomputing (79)', 'Open Source Game Development (78)', 'Monitoring and Observability (74)', 'Configuration Systems Management (72)', 'Network (70)', 'GNUstep Devroom (67)', 'Jabber (67)', 'DNS (67)', 'Collaboration and Content Management (66)', 'Friends of OpenJDK (66)', 'CrossDistribution Devroom (63)', 'Kotlin (63)', 'Legislative (61)', 'opensuse (60)', 'Legal and Policy issues (59)', 'Software Bill of Materials devroom (57)', 'gnome (54)', 'Desktops (54)', 'RISC-V (54)', 'MariaDB (54)', 'Kernel (54)', 'debian (53)', 'Infra Management (52)', 'KDE (51)', 'Matrix (51)', 'Ruby (50)', 'Microkernel (50)', 'Continuous Integration and Continuous Deployment (50)', 'Railways and Open Transport (49)', 'Apache OpenOffice (48)', 'Identity and Access Management (48)', 'Confidential Computing (48)', 'Software Defined Networking (47)', 'Open Source Firmware, BMC and Bootloader (46)', 'Microkernels and Component-based OS (45)', 'PHP and friends (44)', 'SDN and NFV (43)', 'Nix and NixOS (42)', 'drupal (41)', 'Hardware Enablement (41)', 'Energy (39)', 'FOSS on Mobile Devices (38)', 'FOSS Educational Programming Languages (38)', 'Modern Email (38)', 'Social Web (37)', 'Robotics and Simulation (37)', 'Smalltalk (36)', 'Quantum Computing (35)', 'Free Tools and Editors (34)', 'Open Source Computer Aided Modeling and Design (34)', 'Hardware-Aided Trusted Computing (34)', 'Telephony (33)', 'Emulator Development (33)', 'Microkernels (32)', 'GCC devroom (32)', 'Tool the Docs (31)', 'Mono (30)', 'Valgrind (30)', 'Cross distro (29)', 'centos (28)', 'eBPF (28)', 'Open source search (27)', 'Low-level AI Engineering and Hacking (27)', 'NoSQL (26)', 'Graph processing (26)', 'Monitoring and Cloud (25)', 'Web3 Infrastructure (25)', 'Network devroom (25)', 'Modern Email devroom (25)', 'GNU Guile (24)', 'Funding the FOSS Ecosystem (24)', 'Energy: Accelerating the Transition through Open Source (24)', 'Debugging tools (23)', 'Energy: Reimagining this Ecosystem through Open Source devroom (23)', 'AI Plumbers (23)', 'Local-First, sync engines, CRDTs (23)', 'gentoo (22)', 'FOSS for Scientists (22)', 'Package Management (22)', 'Databases (22)', 'FOSS on Mobile (21)', 'Open Source & EU Policy (21)', 'suse (20)', 'Web Performance (20)', 'Software composition and dependency management (20)', 'Microkernel and Component-Based OS (20)', 'Backup and Recovery (19)', 'Minimalistic Languages (19)', 'Beyond Blockchain - Distributed Web (19)', 'Software Composition (19)', 'Public Code and Digital Public Goods devroom (19)', 'AI and Machine Learning devroom (19)', 'Browser and web platform (19)', 'SBOMS and supply chains (19)', 'Lua (18)', '.NET and TypeScript (18)', 'Free Java devroom (18)', 'Identity and Access Management devroom (18)', 'Collaboration and content management (18)', 'Wine Project (17)', 'Wikis (17)', 'Erlang, Elixir and Friends (17)', 'Software-Defined Radio and Amateur Radio devroom (17)', 'altos (16)', 'Network management and SDN (16)', 'Electronic design automation (16)', 'Electronic Design Automation (EDA) (16)', 'FOSS on Mobile Devices devroom (16)', 'Containers devroom (16)', 'Decentralised Communication (16)', 'data_analytics_devroom (15)', 'new_challenges_in_virtualization_devroom (15)', 'Coding for Language Communities (15)', 'Blockchain and Crypto Currencies (15)', 'Sovereign Cloud (15)', 'Translations (15)', 'Collaboration and Content Management devroom (15)', 'Virtualization and Cloud Infrastructure devroom (15)', 'classpath (14)', 'JBoss (14)', 'fedora (14)', 'Cloud (14)', 'Infrastructure as a service (14)', 'EDA (14)', 'Software Defined Storage devroom (14)', 'Distributions devroom (14)', 'Data Analytics (14)', 'Bioinformatics & Computational Biology (14)', 'Building Europe’s Public Digital Infrastructure (14)', 'calibre (13)', 'Dependency Management (13)', 'Network monitoring, discovery and inventory (13)', 'Public Code (13)', 'Monitoring & Observability devroom (13)', 'Kernel devroom (13)', 'Swift (13)', 'security_hardware_crypto_devroom (12)', 'Open Mobile Linux Devroom (12)', 'Automotive development (12)', 'OpenPOWER (12)', 'Libre-SOC, FPGA and VLSI devroom (12)', 'Real Time Communications (RTC) devroom (12)', 'Cloud Native Databases (12)', 'CRA in practice (12)', 'Software Defined Radio(SDR)/Digital Signal Processing(DSP) (12)', 'Software Performance (12)', 'Open source design (11)', 'ML on Code (11)', 'Nix and NixOS devroom (11)', 'Government Collaboration (11)', 'Source Code Analysis (10)', 'Safety and Open Source (10)', 'Tool The Docs (10)', 'Computer Aided Modeling and Design (10)', 'Raku (10)', 'Microkernel and Component-based OS devroom (10)', 'Designing Futures of FOSS Content Management with the Open Website Alliance devroom (10)', 'Radio (10)', 'Music Production (10)', 'Energy-efficient computing (9)', 'Image-based Linux and Secure Measured Boot (9)', 'Test (9)', 'Haskell (9)', 'Erlang, Elixir, Gleam and Friends devroom (9)', 'LLVM devroom (9)', 'Mozilla devroom (9)', 'Web Performance devroom (9)', 'Open Source Firmware, BMC and Bootloader devroom (9)', 'Android Open Source Project (9)', 'Attestation (9)', 'BSD, illumos, bhyve, OpenZFS (9)', 'GNU (8)', 'Lisp (8)', 'Conference Organisation (8)', 'Nim Programming Language (8)', 'Perl and Raku Programming (8)', 'Debuggers and analysis tools devroom (8)', 'Tool the docs devroom (8)', 'Graphics devroom (8)', 'Inclusive Web (8)', 'Digital Wallets and Verifiable Credentials (8)', 'Image-Based Linux and Boot Integrity (8)', 'Audio, Video & Graphics Creation (8)', 'Open Source Digital Forensics (8)', 'accessibility (7)', 'Hardware-aided Trusted Computing (7)', 'Public Code and Digital Public Goods (7)', 'Binary Tools (7)', 'Translations devroom (7)', 'APIs: GraphQL, OpenAPI, AsyncAPI, and friends (7)', 'WebAssembly (7)', 'opengroupware (6)', 'coreboot (6)', 'Hardware Cryptography Devroom (6)', 'Certification (6)', 'OpenChain (6)', 'Fast and Streaming Data (6)', 'APIs & friends devroom (6)', 'Open Source Design devroom (6)', 'FPGA and VLSI (6)', 'openmoko (5)', 'Lightning Talks (5)', 'PHP & Friends (5)', 'Dart and Flutter (5)', 'RISC-V devroom (5)', 'Zig Programming Language (4)', 'mosix (3)', 'tcl (3)', 'Keynotes (3)', 'Plan 9 (3)', 'osi (2)', 'clustering (1)', 'dokeos (1)', 'hurd (1)', 'dev_room_linuxonlaptops (1)', 'Hypervisors Track (1)', 'Development Track (1)', 'Network and IO Track (1)', 'CAcert (1)'
+   'Embedded (360)', 'Mozilla (322)', 'Free Java (280)', 'MySQL and Friends (238)', 'HPC and computational science (230)', 'Distributions (218)', 'Python (213)', 'Open Research Tools and Technologies (167)', 'Community Development (167)', 'Go (167)', 'X.Org/Graphics (162)', 'Containers (159)', 'Legal and Policy Issues (156)', 'PostgreSQL (155)', 'Testing and Automation (154)', 'Real-time Communications (153)', 'Open Document Editors (151)', 'Software Defined Radio (151)', 'Open Media (150)', 'Ada (147)', 'Geospatial (146)', 'Virtualisation and IaaS (143)', 'Open Source Design (135)', 'BSD (133)', 'LibreOffice (133)', 'Security (125)', 'Perl Programming Languages (123)', 'JavaScript (114)', 'LLVM toolchain (114)', 'Declarative and Minimalistic (109)', 'Graph Processing (108)', 'Software Defined Storage (103)', 'Rust (100)', 'Cross desktop (94)', 'Decentralised Internet (89)', 'Internet of Things (87)', 'CAD and Open Hardware (85)', 'Virtualization and IaaS (82)', 'Retrocomputing (79)', 'Open Source Game Development (78)', 'Monitoring and Observability (74)', 'Configuration Systems Management (72)', 'Network (70)', 'GNUstep Devroom (67)', 'Jabber (67)', 'DNS (67)', 'Kernel (67)', 'Collaboration and Content Management (66)', 'Friends of OpenJDK (66)', 'CrossDistribution Devroom (63)', 'Kotlin (63)', 'Legislative (61)', 'opensuse (60)', 'Legal and Policy issues (59)', 'RISC-V (59)', 'Open Source Firmware, BMC and Bootloader (55)', 'gnome (54)', 'Desktops (54)', 'MariaDB (54)', 'debian (53)', 'Nix and NixOS (53)', 'Infra Management (52)', 'KDE (51)', 'Matrix (51)', 'Ruby (50)', 'Microkernel (50)', 'Continuous Integration and Continuous Deployment (50)', 'FOSS on Mobile (49)', 'Tool the Docs (49)', 'Railways and Open Transport (49)', 'Apache OpenOffice (48)', 'Identity and Access Management (48)', 'Confidential Computing (48)', 'Software Defined Networking (47)', 'Microkernels and Component-based OS (45)', 'PHP and friends (44)', 'SDN and NFV (43)', 'drupal (41)', 'Hardware Enablement (41)', 'SBOMS and supply chains (40)', 'Software Composition (39)', 'Energy (39)', 'FOSS on Mobile Devices (38)', 'FOSS Educational Programming Languages (38)', 'Modern Email (38)', 'Social Web (37)', 'Robotics and Simulation (37)', 'Smalltalk (36)', 'Software Bill of Materials devroom (36)', 'Quantum Computing (35)', 'Free Tools and Editors (34)', 'Open Source Computer Aided Modeling and Design (34)', 'Hardware-Aided Trusted Computing (34)', 'Telephony (33)', 'Emulator Development (33)', 'Microkernels (32)', 'Public Code (32)', 'GCC devroom (32)', 'Mono (30)', 'Valgrind (30)', 'Electronic Design Automation (EDA) (30)', 'Cross distro (29)', 'Web Performance (29)', 'centos (28)', 'eBPF (28)', 'Open source search (27)', 'Low-level AI Engineering and Hacking (27)', 'NoSQL (26)', 'Monitoring and Cloud (25)', 'Web3 Infrastructure (25)', 'Network devroom (25)', 'Modern Email devroom (25)', 'GNU Guile (24)', 'Funding the FOSS Ecosystem (24)', 'Energy: Accelerating the Transition through Open Source (24)', 'Debugging tools (23)', 'Energy: Reimagining this Ecosystem through Open Source devroom (23)', 'AI Plumbers (23)', 'Local-First, sync engines, CRDTs (23)', 'gentoo (22)', 'FOSS for Scientists (22)', 'Package Management (22)', 'Databases (22)', 'Open Source & EU Policy (21)', 'suse (20)', 'Microkernel and Component-Based OS (20)', 'Backup and Recovery (19)', 'Minimalistic Languages (19)', 'Beyond Blockchain - Distributed Web (19)', 'AI and Machine Learning devroom (19)', 'Browser and web platform (19)', 'Lua (18)', '.NET and TypeScript (18)', 'Identity and Access Management devroom (18)', 'Collaboration and content management (18)', 'Wine Project (17)', 'Wikis (17)', 'Erlang, Elixir and Friends (17)', 'Software-Defined Radio and Amateur Radio devroom (17)', 'altos (16)', 'Network management and SDN (16)', 'Electronic design automation (16)', 'Containers devroom (16)', 'Decentralised Communication (16)', 'data_analytics_devroom (15)', 'new_challenges_in_virtualization_devroom (15)', 'Coding for Language Communities (15)', 'Blockchain and Crypto Currencies (15)', 'Sovereign Cloud (15)', 'Translations (15)', 'Collaboration and Content Management devroom (15)', 'Virtualization and Cloud Infrastructure devroom (15)', 'classpath (14)', 'JBoss (14)', 'fedora (14)', 'Cloud (14)', 'Infrastructure as a service (14)', 'Software Defined Storage devroom (14)', 'Data Analytics (14)', 'Bioinformatics & Computational Biology (14)', 'Building Europe’s Public Digital Infrastructure (14)', 'calibre (13)', 'Dependency Management (13)', 'Network monitoring, discovery and inventory (13)', 'Monitoring & Observability devroom (13)', 'Swift (13)', 'security_hardware_crypto_devroom (12)', 'Automotive development (12)', 'OpenPOWER (12)', 'Libre-SOC, FPGA and VLSI devroom (12)', 'Cloud Native Databases (12)', 'CRA in practice (12)', 'Software Performance (12)', 'Open source design (11)', 'ML on Code (11)', 'Government Collaboration (11)', 'Source Code Analysis (10)', 'Safety and Open Source (10)', 'Computer Aided Modeling and Design (10)', 'Raku (10)', 'Microkernel and Component-based OS devroom (10)', 'Designing Futures of FOSS Content Management with the Open Website Alliance devroom (10)', 'Music Production (10)', 'Energy-efficient computing (9)', 'Image-based Linux and Secure Measured Boot (9)', 'Test (9)', 'Haskell (9)', 'Erlang, Elixir, Gleam and Friends devroom (9)', 'LLVM devroom (9)', 'Android Open Source Project (9)', 'Attestation (9)', 'BSD, illumos, bhyve, OpenZFS (9)', 'GNU (8)', 'Lisp (8)', 'Conference Organisation (8)', 'Nim Programming Language (8)', 'Perl and Raku Programming (8)', 'Debuggers and analysis tools devroom (8)', 'Graphics devroom (8)', 'Inclusive Web (8)', 'Digital Wallets and Verifiable Credentials (8)', 'Image-Based Linux and Boot Integrity (8)', 'Audio, Video & Graphics Creation (8)', 'Open Source Digital Forensics (8)', 'accessibility (7)', 'Hardware-aided Trusted Computing (7)', 'Public Code and Digital Public Goods (7)', 'Binary Tools (7)', 'Translations devroom (7)', 'APIs: GraphQL, OpenAPI, AsyncAPI, and friends (7)', 'WebAssembly (7)', 'opengroupware (6)', 'coreboot (6)', 'Hardware Cryptography Devroom (6)', 'Certification (6)', 'OpenChain (6)', 'Fast and Streaming Data (6)', 'APIs & friends devroom (6)', 'Open Source Design devroom (6)', 'FPGA and VLSI (6)', 'openmoko (5)', 'Lightning Talks (5)', 'PHP & Friends (5)', 'Dart and Flutter (5)', 'Zig Programming Language (4)', 'mosix (3)', 'tcl (3)', 'Keynotes (3)', 'Plan 9 (3)', 'osi (2)', 'clustering (1)', 'dokeos (1)', 'hurd (1)', 'dev_room_linuxonlaptops (1)', 'Hypervisors Track (1)', 'Development Track (1)', 'Network and IO Track (1)', 'CAcert (1)'
 
 **2 talk(s)** : 1201 people
 
@@ -128,23 +128,25 @@ Of duration: 329220 mins  (7 months 2 weeks 14 days 15 hours and 0 minutes)
 
 
 ```
-Mozilla                                                         .**********************.*.  23
+Mozilla                                                         .************************.  24
 Embedded                                                        ..****************.*******  23
 PostgreSQL                                                      ..*....*.****************.  18
+Free Java                                                       ...*...*************...**.  16
 MySQL and Friends                                               ...*....**************..*.  16
 BSD                                                             ........***************.*.  16
-Free Java                                                       ...*...*************....*.  15
 X.Org/Graphics                                                  .....*****.*****.***.*...*  15
 Python                                                          ......*.....*****.********  14
-Distributions                                                   .........*...**********.**  13
+Distributions                                                   .........*...*************  14
 Testing and Automation                                          ............******.*******  13
 Go                                                              .............*************  13
 Ada                                                             .....*..*..*****.***.*..*.  12
 HPC and computational science                                   .............*.***********  12
 Community Development                                           ...........**...*****.****  11
+Software Defined Radio                                          .............*********..**  11
 LLVM toolchain                                                  .............*******.**.**  11
 Legal and Policy Issues                                         ...............***********  11
 Perl Programming Languages                                      ....*.....********..*.....  10
+Graph Processing                                                ...........*********..*...  10
 Open Media                                                      ..............******..****  10
 Geospatial                                                      ..............********..**  10
 Open Source Design                                              ...............********.**  10
@@ -153,14 +155,12 @@ KDE                                                             .*********......
 GNUstep Devroom                                                 .**.***.****..............  9
 Open Research Tools and Technologies                            ......**...........*******  9
 Security                                                        ...........*..***.**..*.**  9
-Software Defined Radio                                          .............*********....  9
+Real-time Communications                                        ...............******.***.  9
 Software Defined Storage                                        ................*******.**  9
 gnome                                                           .**.******................  8
 Configuration Systems Management                                ..........********........  8
 Virtualisation and IaaS                                         ...........******.......**  8
-Graph Processing                                                ...........**..*****..*...  8
 JavaScript                                                      .............*....*******.  8
-Real-time Communications                                        ...............******.*.*.  8
 Retrocomputing                                                  .................*****.***  8
 Jabber                                                          ....***.*.***.............  7
 Cross desktop                                                   ......*******.............  7
@@ -175,14 +175,15 @@ PHP and friends                                                 .*..*.......*.**
 Apache OpenOffice                                               .......***..*.......**....  6
 Internet of Things                                              .............*****.*......  6
 Virtualization and IaaS                                         .................******...  6
+Tool the Docs                                                   .................**.*..***  6
+RISC-V                                                          ..................**..****  6
 Collaboration and Content Management                            ..................*****.*.  6
 Monitoring and Observability                                    ..................*****.*.  6
+Open Source Firmware, BMC and Bootloader                        ...................******.  6
 debian                                                          ....*****.................  5
 Microkernel                                                     ...........*.*......***...  5
 Decentralised Internet                                          ................****.....*  5
 CAD and Open Hardware                                           .................**....***  5
-RISC-V                                                          ..................**..*.**  5
-Open Source Firmware, BMC and Bootloader                        ...................****.*.  5
 drupal                                                          ....*..***................  4
 opensuse                                                        .....***.*................  4
 Legal and Policy issues                                         ...........****...........  4
@@ -190,8 +191,8 @@ Smalltalk                                                       ...........****.
 Microkernels and Component-based OS                             ............*...*.**......  4
 Desktops                                                        .............****.........  4
 Valgrind                                                        .............**.*....*....  4
-Tool the Docs                                                   .................**.....**  4
 Infra Management                                                ..................****....  4
+Web Performance                                                 ...................**..**.  4
 Kotlin                                                          ...................****...  4
 Continuous Integration and Continuous Deployment                ...................****...  4
 Emulator Development                                            ....................****..  4
@@ -200,6 +201,8 @@ Network                                                         ................
 Railways and Open Transport                                     ......................****  4
 Confidential Computing                                          ......................****  4
 FOSS Educational Programming Languages                          ......................****  4
+Nix and NixOS                                                   ......................****  4
+Kernel                                                          ......................****  4
 tcl                                                             ...***....................  3
 classpath                                                       ....***...................  3
 gentoo                                                          ....***...................  3
@@ -207,6 +210,7 @@ JBoss                                                           .......*.*.*....
 Mono                                                            .........***..............  3
 NoSQL                                                           .........*..**............  3
 Telephony                                                       ..........***.............  3
+FOSS on Mobile                                                  ...........*...........*.*  3
 Open source search                                              ..............*...*......*  3
 Microkernels                                                    ..............**.*........  3
 SDN and NFV                                                     ...............***........  3
@@ -214,20 +218,16 @@ Identity and Access Management                                  ................
 Hardware Enablement                                             .................***......  3
 Software Defined Networking                                     ..................***.....  3
 Quantum Computing                                               ..................**....*.  3
-Web Performance                                                 ...................**...*.  3
 Friends of OpenJDK                                              ....................***...  3
 MariaDB                                                         ....................***...  3
 FOSS on Mobile Devices                                          .....................**.*.  3
-Nix and NixOS                                                   ......................*.**  3
-Kernel                                                          ......................*.**  3
-Software Bill of Materials devroom                              ......................***.  3
 GCC devroom                                                     .......................***  3
 calibre                                                         ....**....................  2
 opengroupware                                                   ....**....................  2
 centos                                                          ......**..................  2
 CrossDistribution Devroom                                       ..........**..............  2
 Wine Project                                                    ............**............  2
-Graph processing                                                .............**...........  2
+Electronic Design Automation (EDA)                              ...............**.........  2
 GNU Guile                                                       ...............**.........  2
 Lua                                                             ...............**.........  2
 Coding for Language Communities                                 ...............*...*......  2
@@ -242,9 +242,13 @@ Dependency Management                                           ................
 Hardware-Aided Trusted Computing                                ....................**....  2
 OpenPOWER                                                       ....................**....  2
 Safety and Open Source                                          ....................**....  2
+Software Composition                                            ....................**....  2
 Libre-SOC, FPGA and VLSI devroom                                .....................*.*..  2
+Public Code                                                     .....................*.*..  2
 Energy                                                          ......................*..*  2
 Translations                                                    ......................*..*  2
+Software Bill of Materials devroom                              ......................*.*.  2
+SBOMS and supply chains                                         .......................*.*  2
 Legislative                                                     .......................**.  2
 eBPF                                                            ........................**  2
 Modern Email                                                    ........................**  2
@@ -272,7 +276,6 @@ Keynotes                                                        ...........*....
 Hypervisors Track                                               ...........*..............  1
 Lightning Talks                                                 ...........*..............  1
 Hardware Cryptography Devroom                                   ...........*..............  1
-Open Mobile Linux Devroom                                       ...........*..............  1
 Certification                                                   ...........*..............  1
 Development Track                                               ...........*..............  1
 Network and IO Track                                            ...........*..............  1
@@ -288,8 +291,6 @@ Lisp                                                            ..............*.
 Network management and SDN                                      ..............*...........  1
 Electronic design automation                                    ..............*...........  1
 Open source design                                              ..............*...........  1
-EDA                                                             ...............*..........  1
-Electronic Design Automation (EDA)                              ................*.........  1
 Source Code Analysis                                            .................*........  1
 .NET and TypeScript                                             ..................*.......  1
 PHP & Friends                                                   ..................*.......  1
@@ -301,16 +302,12 @@ Beyond Blockchain - Distributed Web                             ................
 OpenChain                                                       ....................*.....  1
 Network monitoring, discovery and inventory                     ....................*.....  1
 Zig Programming Language                                        ....................*.....  1
-Software Composition                                            ....................*.....  1
-Tool The Docs                                                   ....................*.....  1
 Computer Aided Modeling and Design                              .....................*....  1
 Conference Organisation                                         .....................*....  1
 Dart and Flutter                                                .....................*....  1
 Nim Programming Language                                        .....................*....  1
 Raku                                                            .....................*....  1
 Web3 Infrastructure                                             .....................*....  1
-Public Code                                                     .....................*....  1
-Software composition and dependency management                  .....................*....  1
 Sovereign Cloud                                                 ......................*...  1
 Image-based Linux and Secure Measured Boot                      ......................*...  1
 Fast and Streaming Data                                         ......................*...  1
@@ -322,17 +319,12 @@ Software Defined Storage devroom                                ................
 Perl and Raku Programming                                       .......................*..  1
 Debuggers and analysis tools devroom                            .......................*..  1
 Erlang, Elixir, Gleam and Friends devroom                       .......................*..  1
-Tool the docs devroom                                           .......................*..  1
-Real Time Communications (RTC) devroom                          .......................*..  1
-FOSS on Mobile Devices devroom                                  .......................*..  1
 Collaboration and Content Management devroom                    .......................*..  1
 Energy: Reimagining this Ecosystem through Open Source devroom  .......................*..  1
-Public Code and Digital Public Goods devroom                    .......................*..  1
 APIs & friends devroom                                          .......................*..  1
 Open Source Design devroom                                      .......................*..  1
 Virtualization and Cloud Infrastructure devroom                 .......................*..  1
 Containers devroom                                              .......................*..  1
-Free Java devroom                                               .......................*..  1
 Network devroom                                                 .......................*..  1
 Microkernel and Component-based OS devroom                      .......................*..  1
 Translations devroom                                            .......................*..  1
@@ -340,21 +332,13 @@ Graphics devroom                                                ................
 Identity and Access Management devroom                          .......................*..  1
 LLVM devroom                                                    .......................*..  1
 Designing Futures of FOSS Content Management with the Open Website Alliance devroom.......................*..  1
-Nix and NixOS devroom                                           .......................*..  1
-Mozilla devroom                                                 .......................*..  1
 Modern Email devroom                                            .......................*..  1
-Web Performance devroom                                         .......................*..  1
-RISC-V devroom                                                  .......................*..  1
-Open Source Firmware, BMC and Bootloader devroom                .......................*..  1
-Distributions devroom                                           .......................*..  1
 Monitoring & Observability devroom                              .......................*..  1
 Software-Defined Radio and Amateur Radio devroom                .......................*..  1
 AI and Machine Learning devroom                                 .......................*..  1
-Kernel devroom                                                  .......................*..  1
 Swift                                                           ........................*.  1
 Android Open Source Project                                     ........................*.  1
 Cloud Native Databases                                          ........................*.  1
-Radio                                                           ........................*.  1
 Data Analytics                                                  ........................*.  1
 Inclusive Web                                                   ........................*.  1
 APIs: GraphQL, OpenAPI, AsyncAPI, and friends                   ........................*.  1
@@ -373,10 +357,8 @@ Browser and web platform                                        ................
 Building Europe’s Public Digital Infrastructure                 .........................*  1
 CRA in practice                                                 .........................*  1
 Databases                                                       .........................*  1
-FOSS on Mobile                                                  .........................*  1
 AI Plumbers                                                     .........................*  1
 Local-First, sync engines, CRDTs                                .........................*  1
-Software Defined Radio(SDR)/Digital Signal Processing(DSP)      .........................*  1
 Plan 9                                                          .........................*  1
 Software Performance                                            .........................*  1
 Decentralised Communication                                     .........................*  1
@@ -384,7 +366,6 @@ Open Source & EU Policy                                         ................
 Audio, Video & Graphics Creation                                .........................*  1
 Music Production                                                .........................*  1
 Open Source Digital Forensics                                   .........................*  1
-SBOMS and supply chains                                         .........................*  1
 ```
 
 # Yearly breakdown of talks
