@@ -12,7 +12,7 @@
   "dependencies": {
     "argparse": "^2.0.1",
     "fast-xml-parser": "^5.7.0",
-    "moment": "^2.24.0"
+    "moment": "^2.31.0"
   },
   "devDependencies": {
     "mocha": "^12.0.2"
